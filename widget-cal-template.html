@@ -1,0 +1,42 @@
+<div class="vertiCal col-md-6">
+  <div class="vertiCalHeader text-center">
+    <div class="month"><%= intervalStart.format("MMMM YYYY") %></div>
+  </div>
+  <div class="btn-group-vertical input-group-vertical vertiCalBtns clndr-scrollable">
+    <div class="btn btn-default vertiCalControl clndr-previous-button">
+      <i class="fa fa-sort-asc fa-fw"></i>
+    </div> 
+    <% _.each(days, function(day){ %>
+      <div class='row btn btn-default <%= day.classes %>'>
+        <div class="col-xs-6 text-right">
+          <% if( !intervalStart.isSame( day.day, 'month' )){ %>
+            <%= day.day.format("MMM") %>
+          <% } %>
+          <%= day.day.format("Do") %>
+        </div>
+        <div class="col-xs-6 text-left">
+          <% if( day.avaliable ){ %>
+            Avaliable
+          <% }else{ %>
+            Unavaliable
+          <% } %>
+        </div>
+      </div>
+    <% }); %>
+    <div class="btn btn-default vertiCalControl clndr-next-button">
+      <i class="fa fa-sort-desc fa-fw"></i>
+    </div>
+  </div>
+  <div id="vertiCalJumpToToday" class="btn btn-default btn-block clndr-today-button">
+    Jump to Today
+  </div>
+  <div class="btn-block btn-group-vertical input-group-vertical">
+    <input id="jumpToDateInput" class="form-control" value="{{value}}" type="date"/>
+    <div class="visible-xs visible-sm">
+      <button id="jumpToDateSubmit" class="btn btn-default btn-block">Jump to Date</button>
+    </div>
+    <div class="hidden-xs hidden-sm">
+      <button id="jumpToDateSubmit" class="btn btn-default btn-block">Jump</button>
+    </div>
+  </div>
+</div>
