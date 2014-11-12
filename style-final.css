@@ -1,0 +1,6363 @@
+#tideFishSchedule {
+  /* Custom */
+
+  /*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+  /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+  /*# sourceMappingURL=bootstrap.css.map */
+
+}
+#tideFishSchedule .today {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.121094) 0px 3px 5px inset;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  box-shadow: rgba(0, 0, 0, 0.121094) 0px 3px 5px inset;
+  outline-width: 0px;
+  z-index: 2;
+}
+#tideFishSchedule .vertiCalControl {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  margin-bottom: 0px;
+}
+#tideFishSchedule .vertiCalControl div {
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 5px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0px;
+}
+#tideFishSchedule .vertiCalHeader {
+  text-align: center;
+}
+#tideFishSchedule #tideFishCalendar {
+  float: left;
+  margin: 0px;
+  padding: 10px;
+  width: 200px;
+}
+#tideFishSchedule #tideFishEvents {
+  float: left;
+  margin: 0px;
+  padding: 10px;
+}
+#tideFishSchedule #tideFishSchedule {
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+}
+#tideFishSchedule .arrow-down {
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+#tideFishSchedule .arrow-up {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+#tideFishSchedule .red-dot {
+  background-color: red;
+}
+#tideFishSchedule .green-dot {
+  background-color: green;
+}
+#tideFishSchedule .red-dot,
+#tideFishSchedule .green-dot {
+  border-radius: 50% 50%;
+  height: 15px;
+  margin: 4px;
+  width: 15px;
+}
+#tideFishSchedule html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+#tideFishSchedule body {
+  margin: 0;
+}
+#tideFishSchedule article,
+#tideFishSchedule aside,
+#tideFishSchedule details,
+#tideFishSchedule figcaption,
+#tideFishSchedule figure,
+#tideFishSchedule footer,
+#tideFishSchedule header,
+#tideFishSchedule hgroup,
+#tideFishSchedule main,
+#tideFishSchedule nav,
+#tideFishSchedule section,
+#tideFishSchedule summary {
+  display: block;
+}
+#tideFishSchedule audio,
+#tideFishSchedule canvas,
+#tideFishSchedule progress,
+#tideFishSchedule video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+#tideFishSchedule audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+#tideFishSchedule [hidden],
+#tideFishSchedule template {
+  display: none;
+}
+#tideFishSchedule a {
+  background: transparent;
+}
+#tideFishSchedule a:active,
+#tideFishSchedule a:hover {
+  outline: 0;
+}
+#tideFishSchedule abbr[title] {
+  border-bottom: 1px dotted;
+}
+#tideFishSchedule b,
+#tideFishSchedule strong {
+  font-weight: bold;
+}
+#tideFishSchedule dfn {
+  font-style: italic;
+}
+#tideFishSchedule h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+#tideFishSchedule mark {
+  color: #000;
+  background: #ff0;
+}
+#tideFishSchedule small {
+  font-size: 80%;
+}
+#tideFishSchedule sub,
+#tideFishSchedule sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+#tideFishSchedule sup {
+  top: -0.5em;
+}
+#tideFishSchedule sub {
+  bottom: -0.25em;
+}
+#tideFishSchedule img {
+  border: 0;
+}
+#tideFishSchedule svg:not(:root) {
+  overflow: hidden;
+}
+#tideFishSchedule figure {
+  margin: 1em 40px;
+}
+#tideFishSchedule hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#tideFishSchedule pre {
+  overflow: auto;
+}
+#tideFishSchedule code,
+#tideFishSchedule kbd,
+#tideFishSchedule pre,
+#tideFishSchedule samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+#tideFishSchedule button,
+#tideFishSchedule input,
+#tideFishSchedule optgroup,
+#tideFishSchedule select,
+#tideFishSchedule textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+#tideFishSchedule button {
+  overflow: visible;
+}
+#tideFishSchedule button,
+#tideFishSchedule select {
+  text-transform: none;
+}
+#tideFishSchedule button,
+#tideFishSchedule html input[type="button"],
+#tideFishSchedule input[type="reset"],
+#tideFishSchedule input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+#tideFishSchedule button[disabled],
+#tideFishSchedule html input[disabled] {
+  cursor: default;
+}
+#tideFishSchedule button::-moz-focus-inner,
+#tideFishSchedule input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+#tideFishSchedule input {
+  line-height: normal;
+}
+#tideFishSchedule input[type="checkbox"],
+#tideFishSchedule input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+#tideFishSchedule input[type="number"]::-webkit-inner-spin-button,
+#tideFishSchedule input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+#tideFishSchedule input[type="search"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+#tideFishSchedule input[type="search"]::-webkit-search-cancel-button,
+#tideFishSchedule input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+#tideFishSchedule fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #c0c0c0;
+}
+#tideFishSchedule legend {
+  padding: 0;
+  border: 0;
+}
+#tideFishSchedule textarea {
+  overflow: auto;
+}
+#tideFishSchedule optgroup {
+  font-weight: bold;
+}
+#tideFishSchedule table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+#tideFishSchedule td,
+#tideFishSchedule th {
+  padding: 0;
+}
+@media print {
+  #tideFishSchedule * {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  #tideFishSchedule a,
+  #tideFishSchedule a:visited {
+    text-decoration: underline;
+  }
+  #tideFishSchedule a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  #tideFishSchedule abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  #tideFishSchedule a[href^="javascript:"]:after,
+  #tideFishSchedule a[href^="#"]:after {
+    content: "";
+  }
+  #tideFishSchedule pre,
+  #tideFishSchedule blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  #tideFishSchedule thead {
+    display: table-header-group;
+  }
+  #tideFishSchedule tr,
+  #tideFishSchedule img {
+    page-break-inside: avoid;
+  }
+  #tideFishSchedule img {
+    max-width: 100% !important;
+  }
+  #tideFishSchedule p,
+  #tideFishSchedule h2,
+  #tideFishSchedule h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  #tideFishSchedule h2,
+  #tideFishSchedule h3 {
+    page-break-after: avoid;
+  }
+  #tideFishSchedule select {
+    background: #fff !important;
+  }
+  #tideFishSchedule .navbar {
+    display: none;
+  }
+  #tideFishSchedule .table td,
+  #tideFishSchedule .table th {
+    background-color: #fff !important;
+  }
+  #tideFishSchedule .btn > .caret,
+  #tideFishSchedule .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  #tideFishSchedule .label {
+    border: 1px solid #000;
+  }
+  #tideFishSchedule .table {
+    border-collapse: collapse !important;
+  }
+  #tideFishSchedule .table-bordered th,
+  #tideFishSchedule .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+#tideFishSchedule .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#tideFishSchedule .glyphicon-asterisk:before {
+  content: "\2a";
+}
+#tideFishSchedule .glyphicon-plus:before {
+  content: "\2b";
+}
+#tideFishSchedule .glyphicon-euro:before {
+  content: "\20ac";
+}
+#tideFishSchedule .glyphicon-minus:before {
+  content: "\2212";
+}
+#tideFishSchedule .glyphicon-cloud:before {
+  content: "\2601";
+}
+#tideFishSchedule .glyphicon-envelope:before {
+  content: "\2709";
+}
+#tideFishSchedule .glyphicon-pencil:before {
+  content: "\270f";
+}
+#tideFishSchedule .glyphicon-glass:before {
+  content: "\e001";
+}
+#tideFishSchedule .glyphicon-music:before {
+  content: "\e002";
+}
+#tideFishSchedule .glyphicon-search:before {
+  content: "\e003";
+}
+#tideFishSchedule .glyphicon-heart:before {
+  content: "\e005";
+}
+#tideFishSchedule .glyphicon-star:before {
+  content: "\e006";
+}
+#tideFishSchedule .glyphicon-star-empty:before {
+  content: "\e007";
+}
+#tideFishSchedule .glyphicon-user:before {
+  content: "\e008";
+}
+#tideFishSchedule .glyphicon-film:before {
+  content: "\e009";
+}
+#tideFishSchedule .glyphicon-th-large:before {
+  content: "\e010";
+}
+#tideFishSchedule .glyphicon-th:before {
+  content: "\e011";
+}
+#tideFishSchedule .glyphicon-th-list:before {
+  content: "\e012";
+}
+#tideFishSchedule .glyphicon-ok:before {
+  content: "\e013";
+}
+#tideFishSchedule .glyphicon-remove:before {
+  content: "\e014";
+}
+#tideFishSchedule .glyphicon-zoom-in:before {
+  content: "\e015";
+}
+#tideFishSchedule .glyphicon-zoom-out:before {
+  content: "\e016";
+}
+#tideFishSchedule .glyphicon-off:before {
+  content: "\e017";
+}
+#tideFishSchedule .glyphicon-signal:before {
+  content: "\e018";
+}
+#tideFishSchedule .glyphicon-cog:before {
+  content: "\e019";
+}
+#tideFishSchedule .glyphicon-trash:before {
+  content: "\e020";
+}
+#tideFishSchedule .glyphicon-home:before {
+  content: "\e021";
+}
+#tideFishSchedule .glyphicon-file:before {
+  content: "\e022";
+}
+#tideFishSchedule .glyphicon-time:before {
+  content: "\e023";
+}
+#tideFishSchedule .glyphicon-road:before {
+  content: "\e024";
+}
+#tideFishSchedule .glyphicon-download-alt:before {
+  content: "\e025";
+}
+#tideFishSchedule .glyphicon-download:before {
+  content: "\e026";
+}
+#tideFishSchedule .glyphicon-upload:before {
+  content: "\e027";
+}
+#tideFishSchedule .glyphicon-inbox:before {
+  content: "\e028";
+}
+#tideFishSchedule .glyphicon-play-circle:before {
+  content: "\e029";
+}
+#tideFishSchedule .glyphicon-repeat:before {
+  content: "\e030";
+}
+#tideFishSchedule .glyphicon-refresh:before {
+  content: "\e031";
+}
+#tideFishSchedule .glyphicon-list-alt:before {
+  content: "\e032";
+}
+#tideFishSchedule .glyphicon-lock:before {
+  content: "\e033";
+}
+#tideFishSchedule .glyphicon-flag:before {
+  content: "\e034";
+}
+#tideFishSchedule .glyphicon-headphones:before {
+  content: "\e035";
+}
+#tideFishSchedule .glyphicon-volume-off:before {
+  content: "\e036";
+}
+#tideFishSchedule .glyphicon-volume-down:before {
+  content: "\e037";
+}
+#tideFishSchedule .glyphicon-volume-up:before {
+  content: "\e038";
+}
+#tideFishSchedule .glyphicon-qrcode:before {
+  content: "\e039";
+}
+#tideFishSchedule .glyphicon-barcode:before {
+  content: "\e040";
+}
+#tideFishSchedule .glyphicon-tag:before {
+  content: "\e041";
+}
+#tideFishSchedule .glyphicon-tags:before {
+  content: "\e042";
+}
+#tideFishSchedule .glyphicon-book:before {
+  content: "\e043";
+}
+#tideFishSchedule .glyphicon-bookmark:before {
+  content: "\e044";
+}
+#tideFishSchedule .glyphicon-print:before {
+  content: "\e045";
+}
+#tideFishSchedule .glyphicon-camera:before {
+  content: "\e046";
+}
+#tideFishSchedule .glyphicon-font:before {
+  content: "\e047";
+}
+#tideFishSchedule .glyphicon-bold:before {
+  content: "\e048";
+}
+#tideFishSchedule .glyphicon-italic:before {
+  content: "\e049";
+}
+#tideFishSchedule .glyphicon-text-height:before {
+  content: "\e050";
+}
+#tideFishSchedule .glyphicon-text-width:before {
+  content: "\e051";
+}
+#tideFishSchedule .glyphicon-align-left:before {
+  content: "\e052";
+}
+#tideFishSchedule .glyphicon-align-center:before {
+  content: "\e053";
+}
+#tideFishSchedule .glyphicon-align-right:before {
+  content: "\e054";
+}
+#tideFishSchedule .glyphicon-align-justify:before {
+  content: "\e055";
+}
+#tideFishSchedule .glyphicon-list:before {
+  content: "\e056";
+}
+#tideFishSchedule .glyphicon-indent-left:before {
+  content: "\e057";
+}
+#tideFishSchedule .glyphicon-indent-right:before {
+  content: "\e058";
+}
+#tideFishSchedule .glyphicon-facetime-video:before {
+  content: "\e059";
+}
+#tideFishSchedule .glyphicon-picture:before {
+  content: "\e060";
+}
+#tideFishSchedule .glyphicon-map-marker:before {
+  content: "\e062";
+}
+#tideFishSchedule .glyphicon-adjust:before {
+  content: "\e063";
+}
+#tideFishSchedule .glyphicon-tint:before {
+  content: "\e064";
+}
+#tideFishSchedule .glyphicon-edit:before {
+  content: "\e065";
+}
+#tideFishSchedule .glyphicon-share:before {
+  content: "\e066";
+}
+#tideFishSchedule .glyphicon-check:before {
+  content: "\e067";
+}
+#tideFishSchedule .glyphicon-move:before {
+  content: "\e068";
+}
+#tideFishSchedule .glyphicon-step-backward:before {
+  content: "\e069";
+}
+#tideFishSchedule .glyphicon-fast-backward:before {
+  content: "\e070";
+}
+#tideFishSchedule .glyphicon-backward:before {
+  content: "\e071";
+}
+#tideFishSchedule .glyphicon-play:before {
+  content: "\e072";
+}
+#tideFishSchedule .glyphicon-pause:before {
+  content: "\e073";
+}
+#tideFishSchedule .glyphicon-stop:before {
+  content: "\e074";
+}
+#tideFishSchedule .glyphicon-forward:before {
+  content: "\e075";
+}
+#tideFishSchedule .glyphicon-fast-forward:before {
+  content: "\e076";
+}
+#tideFishSchedule .glyphicon-step-forward:before {
+  content: "\e077";
+}
+#tideFishSchedule .glyphicon-eject:before {
+  content: "\e078";
+}
+#tideFishSchedule .glyphicon-chevron-left:before {
+  content: "\e079";
+}
+#tideFishSchedule .glyphicon-chevron-right:before {
+  content: "\e080";
+}
+#tideFishSchedule .glyphicon-plus-sign:before {
+  content: "\e081";
+}
+#tideFishSchedule .glyphicon-minus-sign:before {
+  content: "\e082";
+}
+#tideFishSchedule .glyphicon-remove-sign:before {
+  content: "\e083";
+}
+#tideFishSchedule .glyphicon-ok-sign:before {
+  content: "\e084";
+}
+#tideFishSchedule .glyphicon-question-sign:before {
+  content: "\e085";
+}
+#tideFishSchedule .glyphicon-info-sign:before {
+  content: "\e086";
+}
+#tideFishSchedule .glyphicon-screenshot:before {
+  content: "\e087";
+}
+#tideFishSchedule .glyphicon-remove-circle:before {
+  content: "\e088";
+}
+#tideFishSchedule .glyphicon-ok-circle:before {
+  content: "\e089";
+}
+#tideFishSchedule .glyphicon-ban-circle:before {
+  content: "\e090";
+}
+#tideFishSchedule .glyphicon-arrow-left:before {
+  content: "\e091";
+}
+#tideFishSchedule .glyphicon-arrow-right:before {
+  content: "\e092";
+}
+#tideFishSchedule .glyphicon-arrow-up:before {
+  content: "\e093";
+}
+#tideFishSchedule .glyphicon-arrow-down:before {
+  content: "\e094";
+}
+#tideFishSchedule .glyphicon-share-alt:before {
+  content: "\e095";
+}
+#tideFishSchedule .glyphicon-resize-full:before {
+  content: "\e096";
+}
+#tideFishSchedule .glyphicon-resize-small:before {
+  content: "\e097";
+}
+#tideFishSchedule .glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+#tideFishSchedule .glyphicon-gift:before {
+  content: "\e102";
+}
+#tideFishSchedule .glyphicon-leaf:before {
+  content: "\e103";
+}
+#tideFishSchedule .glyphicon-fire:before {
+  content: "\e104";
+}
+#tideFishSchedule .glyphicon-eye-open:before {
+  content: "\e105";
+}
+#tideFishSchedule .glyphicon-eye-close:before {
+  content: "\e106";
+}
+#tideFishSchedule .glyphicon-warning-sign:before {
+  content: "\e107";
+}
+#tideFishSchedule .glyphicon-plane:before {
+  content: "\e108";
+}
+#tideFishSchedule .glyphicon-calendar:before {
+  content: "\e109";
+}
+#tideFishSchedule .glyphicon-random:before {
+  content: "\e110";
+}
+#tideFishSchedule .glyphicon-comment:before {
+  content: "\e111";
+}
+#tideFishSchedule .glyphicon-magnet:before {
+  content: "\e112";
+}
+#tideFishSchedule .glyphicon-chevron-up:before {
+  content: "\e113";
+}
+#tideFishSchedule .glyphicon-chevron-down:before {
+  content: "\e114";
+}
+#tideFishSchedule .glyphicon-retweet:before {
+  content: "\e115";
+}
+#tideFishSchedule .glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+#tideFishSchedule .glyphicon-folder-close:before {
+  content: "\e117";
+}
+#tideFishSchedule .glyphicon-folder-open:before {
+  content: "\e118";
+}
+#tideFishSchedule .glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+#tideFishSchedule .glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+#tideFishSchedule .glyphicon-hdd:before {
+  content: "\e121";
+}
+#tideFishSchedule .glyphicon-bullhorn:before {
+  content: "\e122";
+}
+#tideFishSchedule .glyphicon-bell:before {
+  content: "\e123";
+}
+#tideFishSchedule .glyphicon-certificate:before {
+  content: "\e124";
+}
+#tideFishSchedule .glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+#tideFishSchedule .glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+#tideFishSchedule .glyphicon-hand-right:before {
+  content: "\e127";
+}
+#tideFishSchedule .glyphicon-hand-left:before {
+  content: "\e128";
+}
+#tideFishSchedule .glyphicon-hand-up:before {
+  content: "\e129";
+}
+#tideFishSchedule .glyphicon-hand-down:before {
+  content: "\e130";
+}
+#tideFishSchedule .glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+#tideFishSchedule .glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+#tideFishSchedule .glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+#tideFishSchedule .glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+#tideFishSchedule .glyphicon-globe:before {
+  content: "\e135";
+}
+#tideFishSchedule .glyphicon-wrench:before {
+  content: "\e136";
+}
+#tideFishSchedule .glyphicon-tasks:before {
+  content: "\e137";
+}
+#tideFishSchedule .glyphicon-filter:before {
+  content: "\e138";
+}
+#tideFishSchedule .glyphicon-briefcase:before {
+  content: "\e139";
+}
+#tideFishSchedule .glyphicon-fullscreen:before {
+  content: "\e140";
+}
+#tideFishSchedule .glyphicon-dashboard:before {
+  content: "\e141";
+}
+#tideFishSchedule .glyphicon-paperclip:before {
+  content: "\e142";
+}
+#tideFishSchedule .glyphicon-heart-empty:before {
+  content: "\e143";
+}
+#tideFishSchedule .glyphicon-link:before {
+  content: "\e144";
+}
+#tideFishSchedule .glyphicon-phone:before {
+  content: "\e145";
+}
+#tideFishSchedule .glyphicon-pushpin:before {
+  content: "\e146";
+}
+#tideFishSchedule .glyphicon-usd:before {
+  content: "\e148";
+}
+#tideFishSchedule .glyphicon-gbp:before {
+  content: "\e149";
+}
+#tideFishSchedule .glyphicon-sort:before {
+  content: "\e150";
+}
+#tideFishSchedule .glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+#tideFishSchedule .glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+#tideFishSchedule .glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+#tideFishSchedule .glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+#tideFishSchedule .glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+#tideFishSchedule .glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+#tideFishSchedule .glyphicon-unchecked:before {
+  content: "\e157";
+}
+#tideFishSchedule .glyphicon-expand:before {
+  content: "\e158";
+}
+#tideFishSchedule .glyphicon-collapse-down:before {
+  content: "\e159";
+}
+#tideFishSchedule .glyphicon-collapse-up:before {
+  content: "\e160";
+}
+#tideFishSchedule .glyphicon-log-in:before {
+  content: "\e161";
+}
+#tideFishSchedule .glyphicon-flash:before {
+  content: "\e162";
+}
+#tideFishSchedule .glyphicon-log-out:before {
+  content: "\e163";
+}
+#tideFishSchedule .glyphicon-new-window:before {
+  content: "\e164";
+}
+#tideFishSchedule .glyphicon-record:before {
+  content: "\e165";
+}
+#tideFishSchedule .glyphicon-save:before {
+  content: "\e166";
+}
+#tideFishSchedule .glyphicon-open:before {
+  content: "\e167";
+}
+#tideFishSchedule .glyphicon-saved:before {
+  content: "\e168";
+}
+#tideFishSchedule .glyphicon-import:before {
+  content: "\e169";
+}
+#tideFishSchedule .glyphicon-export:before {
+  content: "\e170";
+}
+#tideFishSchedule .glyphicon-send:before {
+  content: "\e171";
+}
+#tideFishSchedule .glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+#tideFishSchedule .glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+#tideFishSchedule .glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+#tideFishSchedule .glyphicon-floppy-save:before {
+  content: "\e175";
+}
+#tideFishSchedule .glyphicon-floppy-open:before {
+  content: "\e176";
+}
+#tideFishSchedule .glyphicon-credit-card:before {
+  content: "\e177";
+}
+#tideFishSchedule .glyphicon-transfer:before {
+  content: "\e178";
+}
+#tideFishSchedule .glyphicon-cutlery:before {
+  content: "\e179";
+}
+#tideFishSchedule .glyphicon-header:before {
+  content: "\e180";
+}
+#tideFishSchedule .glyphicon-compressed:before {
+  content: "\e181";
+}
+#tideFishSchedule .glyphicon-earphone:before {
+  content: "\e182";
+}
+#tideFishSchedule .glyphicon-phone-alt:before {
+  content: "\e183";
+}
+#tideFishSchedule .glyphicon-tower:before {
+  content: "\e184";
+}
+#tideFishSchedule .glyphicon-stats:before {
+  content: "\e185";
+}
+#tideFishSchedule .glyphicon-sd-video:before {
+  content: "\e186";
+}
+#tideFishSchedule .glyphicon-hd-video:before {
+  content: "\e187";
+}
+#tideFishSchedule .glyphicon-subtitles:before {
+  content: "\e188";
+}
+#tideFishSchedule .glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+#tideFishSchedule .glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+#tideFishSchedule .glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+#tideFishSchedule .glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+#tideFishSchedule .glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+#tideFishSchedule .glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+#tideFishSchedule .glyphicon-registration-mark:before {
+  content: "\e195";
+}
+#tideFishSchedule .glyphicon-cloud-download:before {
+  content: "\e197";
+}
+#tideFishSchedule .glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+#tideFishSchedule .glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+#tideFishSchedule .glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+#tideFishSchedule * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tideFishSchedule *:before,
+#tideFishSchedule *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tideFishSchedule html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#tideFishSchedule body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+#tideFishSchedule input,
+#tideFishSchedule button,
+#tideFishSchedule select,
+#tideFishSchedule textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+#tideFishSchedule a {
+  color: #428bca;
+  text-decoration: none;
+}
+#tideFishSchedule a:hover,
+#tideFishSchedule a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+#tideFishSchedule a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#tideFishSchedule figure {
+  margin: 0;
+}
+#tideFishSchedule img {
+  vertical-align: middle;
+}
+#tideFishSchedule .img-responsive,
+#tideFishSchedule .thumbnail > img,
+#tideFishSchedule .thumbnail a > img,
+#tideFishSchedule .carousel-inner > .item > img,
+#tideFishSchedule .carousel-inner > .item > a > img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+#tideFishSchedule .img-rounded {
+  border-radius: 6px;
+}
+#tideFishSchedule .img-thumbnail {
+  display: inline-block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#tideFishSchedule .img-circle {
+  border-radius: 50%;
+}
+#tideFishSchedule hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+#tideFishSchedule .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+#tideFishSchedule .sr-only-focusable:active,
+#tideFishSchedule .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+#tideFishSchedule h1,
+#tideFishSchedule h2,
+#tideFishSchedule h3,
+#tideFishSchedule h4,
+#tideFishSchedule h5,
+#tideFishSchedule h6,
+#tideFishSchedule .h1,
+#tideFishSchedule .h2,
+#tideFishSchedule .h3,
+#tideFishSchedule .h4,
+#tideFishSchedule .h5,
+#tideFishSchedule .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+#tideFishSchedule h1 small,
+#tideFishSchedule h2 small,
+#tideFishSchedule h3 small,
+#tideFishSchedule h4 small,
+#tideFishSchedule h5 small,
+#tideFishSchedule h6 small,
+#tideFishSchedule .h1 small,
+#tideFishSchedule .h2 small,
+#tideFishSchedule .h3 small,
+#tideFishSchedule .h4 small,
+#tideFishSchedule .h5 small,
+#tideFishSchedule .h6 small,
+#tideFishSchedule h1 .small,
+#tideFishSchedule h2 .small,
+#tideFishSchedule h3 .small,
+#tideFishSchedule h4 .small,
+#tideFishSchedule h5 .small,
+#tideFishSchedule h6 .small,
+#tideFishSchedule .h1 .small,
+#tideFishSchedule .h2 .small,
+#tideFishSchedule .h3 .small,
+#tideFishSchedule .h4 .small,
+#tideFishSchedule .h5 .small,
+#tideFishSchedule .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777;
+}
+#tideFishSchedule h1,
+#tideFishSchedule .h1,
+#tideFishSchedule h2,
+#tideFishSchedule .h2,
+#tideFishSchedule h3,
+#tideFishSchedule .h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#tideFishSchedule h1 small,
+#tideFishSchedule .h1 small,
+#tideFishSchedule h2 small,
+#tideFishSchedule .h2 small,
+#tideFishSchedule h3 small,
+#tideFishSchedule .h3 small,
+#tideFishSchedule h1 .small,
+#tideFishSchedule .h1 .small,
+#tideFishSchedule h2 .small,
+#tideFishSchedule .h2 .small,
+#tideFishSchedule h3 .small,
+#tideFishSchedule .h3 .small {
+  font-size: 65%;
+}
+#tideFishSchedule h4,
+#tideFishSchedule .h4,
+#tideFishSchedule h5,
+#tideFishSchedule .h5,
+#tideFishSchedule h6,
+#tideFishSchedule .h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#tideFishSchedule h4 small,
+#tideFishSchedule .h4 small,
+#tideFishSchedule h5 small,
+#tideFishSchedule .h5 small,
+#tideFishSchedule h6 small,
+#tideFishSchedule .h6 small,
+#tideFishSchedule h4 .small,
+#tideFishSchedule .h4 .small,
+#tideFishSchedule h5 .small,
+#tideFishSchedule .h5 .small,
+#tideFishSchedule h6 .small,
+#tideFishSchedule .h6 .small {
+  font-size: 75%;
+}
+#tideFishSchedule h1,
+#tideFishSchedule .h1 {
+  font-size: 36px;
+}
+#tideFishSchedule h2,
+#tideFishSchedule .h2 {
+  font-size: 30px;
+}
+#tideFishSchedule h3,
+#tideFishSchedule .h3 {
+  font-size: 24px;
+}
+#tideFishSchedule h4,
+#tideFishSchedule .h4 {
+  font-size: 18px;
+}
+#tideFishSchedule h5,
+#tideFishSchedule .h5 {
+  font-size: 14px;
+}
+#tideFishSchedule h6,
+#tideFishSchedule .h6 {
+  font-size: 12px;
+}
+#tideFishSchedule p {
+  margin: 0 0 10px;
+}
+#tideFishSchedule .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .lead {
+    font-size: 21px;
+  }
+}
+#tideFishSchedule small,
+#tideFishSchedule .small {
+  font-size: 85%;
+}
+#tideFishSchedule cite {
+  font-style: normal;
+}
+#tideFishSchedule mark,
+#tideFishSchedule .mark {
+  padding: .2em;
+  background-color: #fcf8e3;
+}
+#tideFishSchedule .text-left {
+  text-align: left;
+}
+#tideFishSchedule .text-right {
+  text-align: right;
+}
+#tideFishSchedule .text-center {
+  text-align: center;
+}
+#tideFishSchedule .text-justify {
+  text-align: justify;
+}
+#tideFishSchedule .text-nowrap {
+  white-space: nowrap;
+}
+#tideFishSchedule .text-lowercase {
+  text-transform: lowercase;
+}
+#tideFishSchedule .text-uppercase {
+  text-transform: uppercase;
+}
+#tideFishSchedule .text-capitalize {
+  text-transform: capitalize;
+}
+#tideFishSchedule .text-muted {
+  color: #777;
+}
+#tideFishSchedule .text-primary {
+  color: #428bca;
+}
+#tideFishSchedule a.text-primary:hover {
+  color: #3071a9;
+}
+#tideFishSchedule .text-success {
+  color: #3c763d;
+}
+#tideFishSchedule a.text-success:hover {
+  color: #2b542c;
+}
+#tideFishSchedule .text-info {
+  color: #31708f;
+}
+#tideFishSchedule a.text-info:hover {
+  color: #245269;
+}
+#tideFishSchedule .text-warning {
+  color: #8a6d3b;
+}
+#tideFishSchedule a.text-warning:hover {
+  color: #66512c;
+}
+#tideFishSchedule .text-danger {
+  color: #a94442;
+}
+#tideFishSchedule a.text-danger:hover {
+  color: #843534;
+}
+#tideFishSchedule .bg-primary {
+  color: #fff;
+  background-color: #428bca;
+}
+#tideFishSchedule a.bg-primary:hover {
+  background-color: #3071a9;
+}
+#tideFishSchedule .bg-success {
+  background-color: #dff0d8;
+}
+#tideFishSchedule a.bg-success:hover {
+  background-color: #c1e2b3;
+}
+#tideFishSchedule .bg-info {
+  background-color: #d9edf7;
+}
+#tideFishSchedule a.bg-info:hover {
+  background-color: #afd9ee;
+}
+#tideFishSchedule .bg-warning {
+  background-color: #fcf8e3;
+}
+#tideFishSchedule a.bg-warning:hover {
+  background-color: #f7ecb5;
+}
+#tideFishSchedule .bg-danger {
+  background-color: #f2dede;
+}
+#tideFishSchedule a.bg-danger:hover {
+  background-color: #e4b9b9;
+}
+#tideFishSchedule .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+#tideFishSchedule ul,
+#tideFishSchedule ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#tideFishSchedule ul ul,
+#tideFishSchedule ol ul,
+#tideFishSchedule ul ol,
+#tideFishSchedule ol ol {
+  margin-bottom: 0;
+}
+#tideFishSchedule .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+#tideFishSchedule .list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+#tideFishSchedule .list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+#tideFishSchedule dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#tideFishSchedule dt,
+#tideFishSchedule dd {
+  line-height: 1.42857143;
+}
+#tideFishSchedule dt {
+  font-weight: bold;
+}
+#tideFishSchedule dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #tideFishSchedule .dl-horizontal dd {
+    margin-left: 180px;
+  }
+}
+#tideFishSchedule abbr[title],
+#tideFishSchedule abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777;
+}
+#tideFishSchedule .initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+#tideFishSchedule blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+#tideFishSchedule blockquote p:last-child,
+#tideFishSchedule blockquote ul:last-child,
+#tideFishSchedule blockquote ol:last-child {
+  margin-bottom: 0;
+}
+#tideFishSchedule blockquote footer,
+#tideFishSchedule blockquote small,
+#tideFishSchedule blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
+}
+#tideFishSchedule blockquote footer:before,
+#tideFishSchedule blockquote small:before,
+#tideFishSchedule blockquote .small:before {
+  content: '\2014 \00A0';
+}
+#tideFishSchedule .blockquote-reverse,
+#tideFishSchedule blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  text-align: right;
+  border-right: 5px solid #eee;
+  border-left: 0;
+}
+#tideFishSchedule .blockquote-reverse footer:before,
+#tideFishSchedule blockquote.pull-right footer:before,
+#tideFishSchedule .blockquote-reverse small:before,
+#tideFishSchedule blockquote.pull-right small:before,
+#tideFishSchedule .blockquote-reverse .small:before,
+#tideFishSchedule blockquote.pull-right .small:before {
+  content: '';
+}
+#tideFishSchedule .blockquote-reverse footer:after,
+#tideFishSchedule blockquote.pull-right footer:after,
+#tideFishSchedule .blockquote-reverse small:after,
+#tideFishSchedule blockquote.pull-right small:after,
+#tideFishSchedule .blockquote-reverse .small:after,
+#tideFishSchedule blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+#tideFishSchedule blockquote:before,
+#tideFishSchedule blockquote:after {
+  content: "";
+}
+#tideFishSchedule address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+#tideFishSchedule code,
+#tideFishSchedule kbd,
+#tideFishSchedule pre,
+#tideFishSchedule samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+#tideFishSchedule code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+#tideFishSchedule kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #fff;
+  background-color: #333;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#tideFishSchedule kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#tideFishSchedule pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#tideFishSchedule pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+#tideFishSchedule .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+#tideFishSchedule .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  #tideFishSchedule .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .container {
+    width: 1170px;
+  }
+}
+#tideFishSchedule .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tideFishSchedule .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#tideFishSchedule .col-xs-1,
+#tideFishSchedule .col-sm-1,
+#tideFishSchedule .col-md-1,
+#tideFishSchedule .col-lg-1,
+#tideFishSchedule .col-xs-2,
+#tideFishSchedule .col-sm-2,
+#tideFishSchedule .col-md-2,
+#tideFishSchedule .col-lg-2,
+#tideFishSchedule .col-xs-3,
+#tideFishSchedule .col-sm-3,
+#tideFishSchedule .col-md-3,
+#tideFishSchedule .col-lg-3,
+#tideFishSchedule .col-xs-4,
+#tideFishSchedule .col-sm-4,
+#tideFishSchedule .col-md-4,
+#tideFishSchedule .col-lg-4,
+#tideFishSchedule .col-xs-5,
+#tideFishSchedule .col-sm-5,
+#tideFishSchedule .col-md-5,
+#tideFishSchedule .col-lg-5,
+#tideFishSchedule .col-xs-6,
+#tideFishSchedule .col-sm-6,
+#tideFishSchedule .col-md-6,
+#tideFishSchedule .col-lg-6,
+#tideFishSchedule .col-xs-7,
+#tideFishSchedule .col-sm-7,
+#tideFishSchedule .col-md-7,
+#tideFishSchedule .col-lg-7,
+#tideFishSchedule .col-xs-8,
+#tideFishSchedule .col-sm-8,
+#tideFishSchedule .col-md-8,
+#tideFishSchedule .col-lg-8,
+#tideFishSchedule .col-xs-9,
+#tideFishSchedule .col-sm-9,
+#tideFishSchedule .col-md-9,
+#tideFishSchedule .col-lg-9,
+#tideFishSchedule .col-xs-10,
+#tideFishSchedule .col-sm-10,
+#tideFishSchedule .col-md-10,
+#tideFishSchedule .col-lg-10,
+#tideFishSchedule .col-xs-11,
+#tideFishSchedule .col-sm-11,
+#tideFishSchedule .col-md-11,
+#tideFishSchedule .col-lg-11,
+#tideFishSchedule .col-xs-12,
+#tideFishSchedule .col-sm-12,
+#tideFishSchedule .col-md-12,
+#tideFishSchedule .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#tideFishSchedule .col-xs-1,
+#tideFishSchedule .col-xs-2,
+#tideFishSchedule .col-xs-3,
+#tideFishSchedule .col-xs-4,
+#tideFishSchedule .col-xs-5,
+#tideFishSchedule .col-xs-6,
+#tideFishSchedule .col-xs-7,
+#tideFishSchedule .col-xs-8,
+#tideFishSchedule .col-xs-9,
+#tideFishSchedule .col-xs-10,
+#tideFishSchedule .col-xs-11,
+#tideFishSchedule .col-xs-12 {
+  float: left;
+}
+#tideFishSchedule .col-xs-12 {
+  width: 100%;
+}
+#tideFishSchedule .col-xs-11 {
+  width: 91.66666667%;
+}
+#tideFishSchedule .col-xs-10 {
+  width: 83.33333333%;
+}
+#tideFishSchedule .col-xs-9 {
+  width: 75%;
+}
+#tideFishSchedule .col-xs-8 {
+  width: 66.66666667%;
+}
+#tideFishSchedule .col-xs-7 {
+  width: 58.33333333%;
+}
+#tideFishSchedule .col-xs-6 {
+  width: 50%;
+}
+#tideFishSchedule .col-xs-5 {
+  width: 41.66666667%;
+}
+#tideFishSchedule .col-xs-4 {
+  width: 33.33333333%;
+}
+#tideFishSchedule .col-xs-3 {
+  width: 25%;
+}
+#tideFishSchedule .col-xs-2 {
+  width: 16.66666667%;
+}
+#tideFishSchedule .col-xs-1 {
+  width: 8.33333333%;
+}
+#tideFishSchedule .col-xs-pull-12 {
+  right: 100%;
+}
+#tideFishSchedule .col-xs-pull-11 {
+  right: 91.66666667%;
+}
+#tideFishSchedule .col-xs-pull-10 {
+  right: 83.33333333%;
+}
+#tideFishSchedule .col-xs-pull-9 {
+  right: 75%;
+}
+#tideFishSchedule .col-xs-pull-8 {
+  right: 66.66666667%;
+}
+#tideFishSchedule .col-xs-pull-7 {
+  right: 58.33333333%;
+}
+#tideFishSchedule .col-xs-pull-6 {
+  right: 50%;
+}
+#tideFishSchedule .col-xs-pull-5 {
+  right: 41.66666667%;
+}
+#tideFishSchedule .col-xs-pull-4 {
+  right: 33.33333333%;
+}
+#tideFishSchedule .col-xs-pull-3 {
+  right: 25%;
+}
+#tideFishSchedule .col-xs-pull-2 {
+  right: 16.66666667%;
+}
+#tideFishSchedule .col-xs-pull-1 {
+  right: 8.33333333%;
+}
+#tideFishSchedule .col-xs-pull-0 {
+  right: auto;
+}
+#tideFishSchedule .col-xs-push-12 {
+  left: 100%;
+}
+#tideFishSchedule .col-xs-push-11 {
+  left: 91.66666667%;
+}
+#tideFishSchedule .col-xs-push-10 {
+  left: 83.33333333%;
+}
+#tideFishSchedule .col-xs-push-9 {
+  left: 75%;
+}
+#tideFishSchedule .col-xs-push-8 {
+  left: 66.66666667%;
+}
+#tideFishSchedule .col-xs-push-7 {
+  left: 58.33333333%;
+}
+#tideFishSchedule .col-xs-push-6 {
+  left: 50%;
+}
+#tideFishSchedule .col-xs-push-5 {
+  left: 41.66666667%;
+}
+#tideFishSchedule .col-xs-push-4 {
+  left: 33.33333333%;
+}
+#tideFishSchedule .col-xs-push-3 {
+  left: 25%;
+}
+#tideFishSchedule .col-xs-push-2 {
+  left: 16.66666667%;
+}
+#tideFishSchedule .col-xs-push-1 {
+  left: 8.33333333%;
+}
+#tideFishSchedule .col-xs-push-0 {
+  left: auto;
+}
+#tideFishSchedule .col-xs-offset-12 {
+  margin-left: 100%;
+}
+#tideFishSchedule .col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+#tideFishSchedule .col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+#tideFishSchedule .col-xs-offset-9 {
+  margin-left: 75%;
+}
+#tideFishSchedule .col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+#tideFishSchedule .col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+#tideFishSchedule .col-xs-offset-6 {
+  margin-left: 50%;
+}
+#tideFishSchedule .col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+#tideFishSchedule .col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+#tideFishSchedule .col-xs-offset-3 {
+  margin-left: 25%;
+}
+#tideFishSchedule .col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+#tideFishSchedule .col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+#tideFishSchedule .col-xs-offset-0 {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .col-sm-1,
+  #tideFishSchedule .col-sm-2,
+  #tideFishSchedule .col-sm-3,
+  #tideFishSchedule .col-sm-4,
+  #tideFishSchedule .col-sm-5,
+  #tideFishSchedule .col-sm-6,
+  #tideFishSchedule .col-sm-7,
+  #tideFishSchedule .col-sm-8,
+  #tideFishSchedule .col-sm-9,
+  #tideFishSchedule .col-sm-10,
+  #tideFishSchedule .col-sm-11,
+  #tideFishSchedule .col-sm-12 {
+    float: left;
+  }
+  #tideFishSchedule .col-sm-12 {
+    width: 100%;
+  }
+  #tideFishSchedule .col-sm-11 {
+    width: 91.66666667%;
+  }
+  #tideFishSchedule .col-sm-10 {
+    width: 83.33333333%;
+  }
+  #tideFishSchedule .col-sm-9 {
+    width: 75%;
+  }
+  #tideFishSchedule .col-sm-8 {
+    width: 66.66666667%;
+  }
+  #tideFishSchedule .col-sm-7 {
+    width: 58.33333333%;
+  }
+  #tideFishSchedule .col-sm-6 {
+    width: 50%;
+  }
+  #tideFishSchedule .col-sm-5 {
+    width: 41.66666667%;
+  }
+  #tideFishSchedule .col-sm-4 {
+    width: 33.33333333%;
+  }
+  #tideFishSchedule .col-sm-3 {
+    width: 25%;
+  }
+  #tideFishSchedule .col-sm-2 {
+    width: 16.66666667%;
+  }
+  #tideFishSchedule .col-sm-1 {
+    width: 8.33333333%;
+  }
+  #tideFishSchedule .col-sm-pull-12 {
+    right: 100%;
+  }
+  #tideFishSchedule .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  #tideFishSchedule .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  #tideFishSchedule .col-sm-pull-9 {
+    right: 75%;
+  }
+  #tideFishSchedule .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  #tideFishSchedule .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  #tideFishSchedule .col-sm-pull-6 {
+    right: 50%;
+  }
+  #tideFishSchedule .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  #tideFishSchedule .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  #tideFishSchedule .col-sm-pull-3 {
+    right: 25%;
+  }
+  #tideFishSchedule .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  #tideFishSchedule .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  #tideFishSchedule .col-sm-pull-0 {
+    right: auto;
+  }
+  #tideFishSchedule .col-sm-push-12 {
+    left: 100%;
+  }
+  #tideFishSchedule .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  #tideFishSchedule .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  #tideFishSchedule .col-sm-push-9 {
+    left: 75%;
+  }
+  #tideFishSchedule .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  #tideFishSchedule .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  #tideFishSchedule .col-sm-push-6 {
+    left: 50%;
+  }
+  #tideFishSchedule .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  #tideFishSchedule .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  #tideFishSchedule .col-sm-push-3 {
+    left: 25%;
+  }
+  #tideFishSchedule .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  #tideFishSchedule .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  #tideFishSchedule .col-sm-push-0 {
+    left: auto;
+  }
+  #tideFishSchedule .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  #tideFishSchedule .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  #tideFishSchedule .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  #tideFishSchedule .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  #tideFishSchedule .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  #tideFishSchedule .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  #tideFishSchedule .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  #tideFishSchedule .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  #tideFishSchedule .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  #tideFishSchedule .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  #tideFishSchedule .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  #tideFishSchedule .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  #tideFishSchedule .col-sm-offset-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  #tideFishSchedule .col-md-1,
+  #tideFishSchedule .col-md-2,
+  #tideFishSchedule .col-md-3,
+  #tideFishSchedule .col-md-4,
+  #tideFishSchedule .col-md-5,
+  #tideFishSchedule .col-md-6,
+  #tideFishSchedule .col-md-7,
+  #tideFishSchedule .col-md-8,
+  #tideFishSchedule .col-md-9,
+  #tideFishSchedule .col-md-10,
+  #tideFishSchedule .col-md-11,
+  #tideFishSchedule .col-md-12 {
+    float: left;
+  }
+  #tideFishSchedule .col-md-12 {
+    width: 100%;
+  }
+  #tideFishSchedule .col-md-11 {
+    width: 91.66666667%;
+  }
+  #tideFishSchedule .col-md-10 {
+    width: 83.33333333%;
+  }
+  #tideFishSchedule .col-md-9 {
+    width: 75%;
+  }
+  #tideFishSchedule .col-md-8 {
+    width: 66.66666667%;
+  }
+  #tideFishSchedule .col-md-7 {
+    width: 58.33333333%;
+  }
+  #tideFishSchedule .col-md-6 {
+    width: 50%;
+  }
+  #tideFishSchedule .col-md-5 {
+    width: 41.66666667%;
+  }
+  #tideFishSchedule .col-md-4 {
+    width: 33.33333333%;
+  }
+  #tideFishSchedule .col-md-3 {
+    width: 25%;
+  }
+  #tideFishSchedule .col-md-2 {
+    width: 16.66666667%;
+  }
+  #tideFishSchedule .col-md-1 {
+    width: 8.33333333%;
+  }
+  #tideFishSchedule .col-md-pull-12 {
+    right: 100%;
+  }
+  #tideFishSchedule .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  #tideFishSchedule .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  #tideFishSchedule .col-md-pull-9 {
+    right: 75%;
+  }
+  #tideFishSchedule .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  #tideFishSchedule .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  #tideFishSchedule .col-md-pull-6 {
+    right: 50%;
+  }
+  #tideFishSchedule .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  #tideFishSchedule .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  #tideFishSchedule .col-md-pull-3 {
+    right: 25%;
+  }
+  #tideFishSchedule .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  #tideFishSchedule .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  #tideFishSchedule .col-md-pull-0 {
+    right: auto;
+  }
+  #tideFishSchedule .col-md-push-12 {
+    left: 100%;
+  }
+  #tideFishSchedule .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  #tideFishSchedule .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  #tideFishSchedule .col-md-push-9 {
+    left: 75%;
+  }
+  #tideFishSchedule .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  #tideFishSchedule .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  #tideFishSchedule .col-md-push-6 {
+    left: 50%;
+  }
+  #tideFishSchedule .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  #tideFishSchedule .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  #tideFishSchedule .col-md-push-3 {
+    left: 25%;
+  }
+  #tideFishSchedule .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  #tideFishSchedule .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  #tideFishSchedule .col-md-push-0 {
+    left: auto;
+  }
+  #tideFishSchedule .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  #tideFishSchedule .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  #tideFishSchedule .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  #tideFishSchedule .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  #tideFishSchedule .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  #tideFishSchedule .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  #tideFishSchedule .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  #tideFishSchedule .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  #tideFishSchedule .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  #tideFishSchedule .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  #tideFishSchedule .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  #tideFishSchedule .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  #tideFishSchedule .col-md-offset-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .col-lg-1,
+  #tideFishSchedule .col-lg-2,
+  #tideFishSchedule .col-lg-3,
+  #tideFishSchedule .col-lg-4,
+  #tideFishSchedule .col-lg-5,
+  #tideFishSchedule .col-lg-6,
+  #tideFishSchedule .col-lg-7,
+  #tideFishSchedule .col-lg-8,
+  #tideFishSchedule .col-lg-9,
+  #tideFishSchedule .col-lg-10,
+  #tideFishSchedule .col-lg-11,
+  #tideFishSchedule .col-lg-12 {
+    float: left;
+  }
+  #tideFishSchedule .col-lg-12 {
+    width: 100%;
+  }
+  #tideFishSchedule .col-lg-11 {
+    width: 91.66666667%;
+  }
+  #tideFishSchedule .col-lg-10 {
+    width: 83.33333333%;
+  }
+  #tideFishSchedule .col-lg-9 {
+    width: 75%;
+  }
+  #tideFishSchedule .col-lg-8 {
+    width: 66.66666667%;
+  }
+  #tideFishSchedule .col-lg-7 {
+    width: 58.33333333%;
+  }
+  #tideFishSchedule .col-lg-6 {
+    width: 50%;
+  }
+  #tideFishSchedule .col-lg-5 {
+    width: 41.66666667%;
+  }
+  #tideFishSchedule .col-lg-4 {
+    width: 33.33333333%;
+  }
+  #tideFishSchedule .col-lg-3 {
+    width: 25%;
+  }
+  #tideFishSchedule .col-lg-2 {
+    width: 16.66666667%;
+  }
+  #tideFishSchedule .col-lg-1 {
+    width: 8.33333333%;
+  }
+  #tideFishSchedule .col-lg-pull-12 {
+    right: 100%;
+  }
+  #tideFishSchedule .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  #tideFishSchedule .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  #tideFishSchedule .col-lg-pull-9 {
+    right: 75%;
+  }
+  #tideFishSchedule .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  #tideFishSchedule .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  #tideFishSchedule .col-lg-pull-6 {
+    right: 50%;
+  }
+  #tideFishSchedule .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  #tideFishSchedule .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  #tideFishSchedule .col-lg-pull-3 {
+    right: 25%;
+  }
+  #tideFishSchedule .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  #tideFishSchedule .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  #tideFishSchedule .col-lg-pull-0 {
+    right: auto;
+  }
+  #tideFishSchedule .col-lg-push-12 {
+    left: 100%;
+  }
+  #tideFishSchedule .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  #tideFishSchedule .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  #tideFishSchedule .col-lg-push-9 {
+    left: 75%;
+  }
+  #tideFishSchedule .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  #tideFishSchedule .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  #tideFishSchedule .col-lg-push-6 {
+    left: 50%;
+  }
+  #tideFishSchedule .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  #tideFishSchedule .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  #tideFishSchedule .col-lg-push-3 {
+    left: 25%;
+  }
+  #tideFishSchedule .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  #tideFishSchedule .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  #tideFishSchedule .col-lg-push-0 {
+    left: auto;
+  }
+  #tideFishSchedule .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  #tideFishSchedule .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  #tideFishSchedule .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  #tideFishSchedule .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  #tideFishSchedule .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  #tideFishSchedule .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  #tideFishSchedule .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  #tideFishSchedule .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  #tideFishSchedule .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  #tideFishSchedule .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  #tideFishSchedule .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  #tideFishSchedule .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  #tideFishSchedule .col-lg-offset-0 {
+    margin-left: 0;
+  }
+}
+#tideFishSchedule table {
+  background-color: transparent;
+}
+#tideFishSchedule th {
+  text-align: left;
+}
+#tideFishSchedule .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#tideFishSchedule .table > thead > tr > th,
+#tideFishSchedule .table > tbody > tr > th,
+#tideFishSchedule .table > tfoot > tr > th,
+#tideFishSchedule .table > thead > tr > td,
+#tideFishSchedule .table > tbody > tr > td,
+#tideFishSchedule .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+#tideFishSchedule .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+#tideFishSchedule .table > caption + thead > tr:first-child > th,
+#tideFishSchedule .table > colgroup + thead > tr:first-child > th,
+#tideFishSchedule .table > thead:first-child > tr:first-child > th,
+#tideFishSchedule .table > caption + thead > tr:first-child > td,
+#tideFishSchedule .table > colgroup + thead > tr:first-child > td,
+#tideFishSchedule .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+#tideFishSchedule .table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+#tideFishSchedule .table .table {
+  background-color: #fff;
+}
+#tideFishSchedule .table-condensed > thead > tr > th,
+#tideFishSchedule .table-condensed > tbody > tr > th,
+#tideFishSchedule .table-condensed > tfoot > tr > th,
+#tideFishSchedule .table-condensed > thead > tr > td,
+#tideFishSchedule .table-condensed > tbody > tr > td,
+#tideFishSchedule .table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+#tideFishSchedule .table-bordered {
+  border: 1px solid #ddd;
+}
+#tideFishSchedule .table-bordered > thead > tr > th,
+#tideFishSchedule .table-bordered > tbody > tr > th,
+#tideFishSchedule .table-bordered > tfoot > tr > th,
+#tideFishSchedule .table-bordered > thead > tr > td,
+#tideFishSchedule .table-bordered > tbody > tr > td,
+#tideFishSchedule .table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+#tideFishSchedule .table-bordered > thead > tr > th,
+#tideFishSchedule .table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+#tideFishSchedule .table-striped > tbody > tr:nth-child(odd) > td,
+#tideFishSchedule .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+#tideFishSchedule .table-hover > tbody > tr:hover > td,
+#tideFishSchedule .table-hover > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+#tideFishSchedule table col[class*="col-"] {
+  position: static;
+  display: table-column;
+  float: none;
+}
+#tideFishSchedule table td[class*="col-"],
+#tideFishSchedule table th[class*="col-"] {
+  position: static;
+  display: table-cell;
+  float: none;
+}
+#tideFishSchedule .table > thead > tr > td.active,
+#tideFishSchedule .table > tbody > tr > td.active,
+#tideFishSchedule .table > tfoot > tr > td.active,
+#tideFishSchedule .table > thead > tr > th.active,
+#tideFishSchedule .table > tbody > tr > th.active,
+#tideFishSchedule .table > tfoot > tr > th.active,
+#tideFishSchedule .table > thead > tr.active > td,
+#tideFishSchedule .table > tbody > tr.active > td,
+#tideFishSchedule .table > tfoot > tr.active > td,
+#tideFishSchedule .table > thead > tr.active > th,
+#tideFishSchedule .table > tbody > tr.active > th,
+#tideFishSchedule .table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+#tideFishSchedule .table-hover > tbody > tr > td.active:hover,
+#tideFishSchedule .table-hover > tbody > tr > th.active:hover,
+#tideFishSchedule .table-hover > tbody > tr.active:hover > td,
+#tideFishSchedule .table-hover > tbody > tr:hover > .active,
+#tideFishSchedule .table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+#tideFishSchedule .table > thead > tr > td.success,
+#tideFishSchedule .table > tbody > tr > td.success,
+#tideFishSchedule .table > tfoot > tr > td.success,
+#tideFishSchedule .table > thead > tr > th.success,
+#tideFishSchedule .table > tbody > tr > th.success,
+#tideFishSchedule .table > tfoot > tr > th.success,
+#tideFishSchedule .table > thead > tr.success > td,
+#tideFishSchedule .table > tbody > tr.success > td,
+#tideFishSchedule .table > tfoot > tr.success > td,
+#tideFishSchedule .table > thead > tr.success > th,
+#tideFishSchedule .table > tbody > tr.success > th,
+#tideFishSchedule .table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+#tideFishSchedule .table-hover > tbody > tr > td.success:hover,
+#tideFishSchedule .table-hover > tbody > tr > th.success:hover,
+#tideFishSchedule .table-hover > tbody > tr.success:hover > td,
+#tideFishSchedule .table-hover > tbody > tr:hover > .success,
+#tideFishSchedule .table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+#tideFishSchedule .table > thead > tr > td.info,
+#tideFishSchedule .table > tbody > tr > td.info,
+#tideFishSchedule .table > tfoot > tr > td.info,
+#tideFishSchedule .table > thead > tr > th.info,
+#tideFishSchedule .table > tbody > tr > th.info,
+#tideFishSchedule .table > tfoot > tr > th.info,
+#tideFishSchedule .table > thead > tr.info > td,
+#tideFishSchedule .table > tbody > tr.info > td,
+#tideFishSchedule .table > tfoot > tr.info > td,
+#tideFishSchedule .table > thead > tr.info > th,
+#tideFishSchedule .table > tbody > tr.info > th,
+#tideFishSchedule .table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+#tideFishSchedule .table-hover > tbody > tr > td.info:hover,
+#tideFishSchedule .table-hover > tbody > tr > th.info:hover,
+#tideFishSchedule .table-hover > tbody > tr.info:hover > td,
+#tideFishSchedule .table-hover > tbody > tr:hover > .info,
+#tideFishSchedule .table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+#tideFishSchedule .table > thead > tr > td.warning,
+#tideFishSchedule .table > tbody > tr > td.warning,
+#tideFishSchedule .table > tfoot > tr > td.warning,
+#tideFishSchedule .table > thead > tr > th.warning,
+#tideFishSchedule .table > tbody > tr > th.warning,
+#tideFishSchedule .table > tfoot > tr > th.warning,
+#tideFishSchedule .table > thead > tr.warning > td,
+#tideFishSchedule .table > tbody > tr.warning > td,
+#tideFishSchedule .table > tfoot > tr.warning > td,
+#tideFishSchedule .table > thead > tr.warning > th,
+#tideFishSchedule .table > tbody > tr.warning > th,
+#tideFishSchedule .table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+#tideFishSchedule .table-hover > tbody > tr > td.warning:hover,
+#tideFishSchedule .table-hover > tbody > tr > th.warning:hover,
+#tideFishSchedule .table-hover > tbody > tr.warning:hover > td,
+#tideFishSchedule .table-hover > tbody > tr:hover > .warning,
+#tideFishSchedule .table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+#tideFishSchedule .table > thead > tr > td.danger,
+#tideFishSchedule .table > tbody > tr > td.danger,
+#tideFishSchedule .table > tfoot > tr > td.danger,
+#tideFishSchedule .table > thead > tr > th.danger,
+#tideFishSchedule .table > tbody > tr > th.danger,
+#tideFishSchedule .table > tfoot > tr > th.danger,
+#tideFishSchedule .table > thead > tr.danger > td,
+#tideFishSchedule .table > tbody > tr.danger > td,
+#tideFishSchedule .table > tfoot > tr.danger > td,
+#tideFishSchedule .table > thead > tr.danger > th,
+#tideFishSchedule .table > tbody > tr.danger > th,
+#tideFishSchedule .table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+#tideFishSchedule .table-hover > tbody > tr > td.danger:hover,
+#tideFishSchedule .table-hover > tbody > tr > th.danger:hover,
+#tideFishSchedule .table-hover > tbody > tr.danger:hover > td,
+#tideFishSchedule .table-hover > tbody > tr:hover > .danger,
+#tideFishSchedule .table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+@media screen and (max-width: 767px) {
+  #tideFishSchedule .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  #tideFishSchedule .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  #tideFishSchedule .table-responsive > .table > thead > tr > th,
+  #tideFishSchedule .table-responsive > .table > tbody > tr > th,
+  #tideFishSchedule .table-responsive > .table > tfoot > tr > th,
+  #tideFishSchedule .table-responsive > .table > thead > tr > td,
+  #tideFishSchedule .table-responsive > .table > tbody > tr > td,
+  #tideFishSchedule .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  #tideFishSchedule .table-responsive > .table-bordered {
+    border: 0;
+  }
+  #tideFishSchedule .table-responsive > .table-bordered > thead > tr > th:first-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  #tideFishSchedule .table-responsive > .table-bordered > thead > tr > td:first-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  #tideFishSchedule .table-responsive > .table-bordered > thead > tr > th:last-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  #tideFishSchedule .table-responsive > .table-bordered > thead > tr > td:last-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  #tideFishSchedule .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  #tideFishSchedule .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  #tideFishSchedule .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  #tideFishSchedule .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  #tideFishSchedule .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+#tideFishSchedule fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#tideFishSchedule legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#tideFishSchedule label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#tideFishSchedule input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tideFishSchedule input[type="radio"],
+#tideFishSchedule input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+#tideFishSchedule input[type="file"] {
+  display: block;
+}
+#tideFishSchedule input[type="range"] {
+  display: block;
+  width: 100%;
+}
+#tideFishSchedule select[multiple],
+#tideFishSchedule select[size] {
+  height: auto;
+}
+#tideFishSchedule input[type="file"]:focus,
+#tideFishSchedule input[type="radio"]:focus,
+#tideFishSchedule input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#tideFishSchedule output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+}
+#tideFishSchedule .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+#tideFishSchedule .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+#tideFishSchedule .form-control::-moz-placeholder {
+  color: #777;
+  opacity: 1;
+}
+#tideFishSchedule .form-control:-ms-input-placeholder {
+  color: #777;
+}
+#tideFishSchedule .form-control::-webkit-input-placeholder {
+  color: #777;
+}
+#tideFishSchedule .form-control[disabled],
+#tideFishSchedule .form-control[readonly],
+#tideFishSchedule fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+#tideFishSchedule textarea.form-control {
+  height: auto;
+}
+#tideFishSchedule input[type="search"] {
+  -webkit-appearance: none;
+}
+#tideFishSchedule input[type="date"],
+#tideFishSchedule input[type="time"],
+#tideFishSchedule input[type="datetime-local"],
+#tideFishSchedule input[type="month"] {
+  line-height: 34px;
+  line-height: 1.42857143 \0;
+}
+#tideFishSchedule input[type="date"].input-sm,
+#tideFishSchedule input[type="time"].input-sm,
+#tideFishSchedule input[type="datetime-local"].input-sm,
+#tideFishSchedule input[type="month"].input-sm {
+  line-height: 30px;
+}
+#tideFishSchedule input[type="date"].input-lg,
+#tideFishSchedule input[type="time"].input-lg,
+#tideFishSchedule input[type="datetime-local"].input-lg,
+#tideFishSchedule input[type="month"].input-lg {
+  line-height: 46px;
+}
+#tideFishSchedule .form-group {
+  margin-bottom: 15px;
+}
+#tideFishSchedule .radio,
+#tideFishSchedule .checkbox {
+  position: relative;
+  display: block;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#tideFishSchedule .radio label,
+#tideFishSchedule .checkbox label {
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+#tideFishSchedule .radio input[type="radio"],
+#tideFishSchedule .radio-inline input[type="radio"],
+#tideFishSchedule .checkbox input[type="checkbox"],
+#tideFishSchedule .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-top: 4px \9;
+  margin-left: -20px;
+}
+#tideFishSchedule .radio + .radio,
+#tideFishSchedule .checkbox + .checkbox {
+  margin-top: -5px;
+}
+#tideFishSchedule .radio-inline,
+#tideFishSchedule .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#tideFishSchedule .radio-inline + .radio-inline,
+#tideFishSchedule .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+#tideFishSchedule input[type="radio"][disabled],
+#tideFishSchedule input[type="checkbox"][disabled],
+#tideFishSchedule input[type="radio"].disabled,
+#tideFishSchedule input[type="checkbox"].disabled,
+#tideFishSchedule fieldset[disabled] input[type="radio"],
+#tideFishSchedule fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed;
+}
+#tideFishSchedule .radio-inline.disabled,
+#tideFishSchedule .checkbox-inline.disabled,
+#tideFishSchedule fieldset[disabled] .radio-inline,
+#tideFishSchedule fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+#tideFishSchedule .radio.disabled label,
+#tideFishSchedule .checkbox.disabled label,
+#tideFishSchedule fieldset[disabled] .radio label,
+#tideFishSchedule fieldset[disabled] .checkbox label {
+  cursor: not-allowed;
+}
+#tideFishSchedule .form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+#tideFishSchedule .form-control-static.input-lg,
+#tideFishSchedule .form-control-static.input-sm {
+  padding-right: 0;
+  padding-left: 0;
+}
+#tideFishSchedule .input-sm,
+#tideFishSchedule .form-horizontal .form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#tideFishSchedule select.input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+#tideFishSchedule textarea.input-sm,
+#tideFishSchedule select[multiple].input-sm {
+  height: auto;
+}
+#tideFishSchedule .input-lg,
+#tideFishSchedule .form-horizontal .form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#tideFishSchedule select.input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+#tideFishSchedule textarea.input-lg,
+#tideFishSchedule select[multiple].input-lg {
+  height: auto;
+}
+#tideFishSchedule .has-feedback {
+  position: relative;
+}
+#tideFishSchedule .has-feedback .form-control {
+  padding-right: 42.5px;
+}
+#tideFishSchedule .form-control-feedback {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+#tideFishSchedule .input-lg + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+#tideFishSchedule .input-sm + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+#tideFishSchedule .has-success .help-block,
+#tideFishSchedule .has-success .control-label,
+#tideFishSchedule .has-success .radio,
+#tideFishSchedule .has-success .checkbox,
+#tideFishSchedule .has-success .radio-inline,
+#tideFishSchedule .has-success .checkbox-inline {
+  color: #3c763d;
+}
+#tideFishSchedule .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#tideFishSchedule .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+#tideFishSchedule .has-success .input-group-addon {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #3c763d;
+}
+#tideFishSchedule .has-success .form-control-feedback {
+  color: #3c763d;
+}
+#tideFishSchedule .has-warning .help-block,
+#tideFishSchedule .has-warning .control-label,
+#tideFishSchedule .has-warning .radio,
+#tideFishSchedule .has-warning .checkbox,
+#tideFishSchedule .has-warning .radio-inline,
+#tideFishSchedule .has-warning .checkbox-inline {
+  color: #8a6d3b;
+}
+#tideFishSchedule .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#tideFishSchedule .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+#tideFishSchedule .has-warning .input-group-addon {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #8a6d3b;
+}
+#tideFishSchedule .has-warning .form-control-feedback {
+  color: #8a6d3b;
+}
+#tideFishSchedule .has-error .help-block,
+#tideFishSchedule .has-error .control-label,
+#tideFishSchedule .has-error .radio,
+#tideFishSchedule .has-error .checkbox,
+#tideFishSchedule .has-error .radio-inline,
+#tideFishSchedule .has-error .checkbox-inline {
+  color: #a94442;
+}
+#tideFishSchedule .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#tideFishSchedule .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+#tideFishSchedule .has-error .input-group-addon {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #a94442;
+}
+#tideFishSchedule .has-error .form-control-feedback {
+  color: #a94442;
+}
+#tideFishSchedule .has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+#tideFishSchedule .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .form-inline .input-group .input-group-addon,
+  #tideFishSchedule .form-inline .input-group .input-group-btn,
+  #tideFishSchedule .form-inline .input-group .form-control {
+    width: auto;
+  }
+  #tideFishSchedule .form-inline .input-group > .form-control {
+    width: 100%;
+  }
+  #tideFishSchedule .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .form-inline .radio,
+  #tideFishSchedule .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .form-inline .radio label,
+  #tideFishSchedule .form-inline .checkbox label {
+    padding-left: 0;
+  }
+  #tideFishSchedule .form-inline .radio input[type="radio"],
+  #tideFishSchedule .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  #tideFishSchedule .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+#tideFishSchedule .form-horizontal .radio,
+#tideFishSchedule .form-horizontal .checkbox,
+#tideFishSchedule .form-horizontal .radio-inline,
+#tideFishSchedule .form-horizontal .checkbox-inline {
+  padding-top: 7px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#tideFishSchedule .form-horizontal .radio,
+#tideFishSchedule .form-horizontal .checkbox {
+  min-height: 27px;
+}
+#tideFishSchedule .form-horizontal .form-group {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+  }
+}
+#tideFishSchedule .form-horizontal .has-feedback .form-control-feedback {
+  top: 0;
+  right: 15px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.3px;
+  }
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+  }
+}
+#tideFishSchedule .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#tideFishSchedule .btn:focus,
+#tideFishSchedule .btn:active:focus,
+#tideFishSchedule .btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#tideFishSchedule .btn:hover,
+#tideFishSchedule .btn:focus {
+  color: #333;
+  text-decoration: none;
+}
+#tideFishSchedule .btn:active,
+#tideFishSchedule .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#tideFishSchedule .btn.disabled,
+#tideFishSchedule .btn[disabled],
+#tideFishSchedule fieldset[disabled] .btn {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65;
+}
+#tideFishSchedule .btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+#tideFishSchedule .btn-default:hover,
+#tideFishSchedule .btn-default:focus,
+#tideFishSchedule .btn-default:active,
+#tideFishSchedule .btn-default.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#tideFishSchedule .btn-default:active,
+#tideFishSchedule .btn-default.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+#tideFishSchedule .btn-default.disabled,
+#tideFishSchedule .btn-default[disabled],
+#tideFishSchedule fieldset[disabled] .btn-default,
+#tideFishSchedule .btn-default.disabled:hover,
+#tideFishSchedule .btn-default[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-default:hover,
+#tideFishSchedule .btn-default.disabled:focus,
+#tideFishSchedule .btn-default[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-default:focus,
+#tideFishSchedule .btn-default.disabled:active,
+#tideFishSchedule .btn-default[disabled]:active,
+#tideFishSchedule fieldset[disabled] .btn-default:active,
+#tideFishSchedule .btn-default.disabled.active,
+#tideFishSchedule .btn-default[disabled].active,
+#tideFishSchedule fieldset[disabled] .btn-default.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+#tideFishSchedule .btn-default .badge {
+  color: #fff;
+  background-color: #333;
+}
+#tideFishSchedule .btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+#tideFishSchedule .btn-primary:hover,
+#tideFishSchedule .btn-primary:focus,
+#tideFishSchedule .btn-primary:active,
+#tideFishSchedule .btn-primary.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+#tideFishSchedule .btn-primary:active,
+#tideFishSchedule .btn-primary.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+#tideFishSchedule .btn-primary.disabled,
+#tideFishSchedule .btn-primary[disabled],
+#tideFishSchedule fieldset[disabled] .btn-primary,
+#tideFishSchedule .btn-primary.disabled:hover,
+#tideFishSchedule .btn-primary[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-primary:hover,
+#tideFishSchedule .btn-primary.disabled:focus,
+#tideFishSchedule .btn-primary[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-primary:focus,
+#tideFishSchedule .btn-primary.disabled:active,
+#tideFishSchedule .btn-primary[disabled]:active,
+#tideFishSchedule fieldset[disabled] .btn-primary:active,
+#tideFishSchedule .btn-primary.disabled.active,
+#tideFishSchedule .btn-primary[disabled].active,
+#tideFishSchedule fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+#tideFishSchedule .btn-primary .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+#tideFishSchedule .btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#tideFishSchedule .btn-success:hover,
+#tideFishSchedule .btn-success:focus,
+#tideFishSchedule .btn-success:active,
+#tideFishSchedule .btn-success.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+#tideFishSchedule .btn-success:active,
+#tideFishSchedule .btn-success.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+#tideFishSchedule .btn-success.disabled,
+#tideFishSchedule .btn-success[disabled],
+#tideFishSchedule fieldset[disabled] .btn-success,
+#tideFishSchedule .btn-success.disabled:hover,
+#tideFishSchedule .btn-success[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-success:hover,
+#tideFishSchedule .btn-success.disabled:focus,
+#tideFishSchedule .btn-success[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-success:focus,
+#tideFishSchedule .btn-success.disabled:active,
+#tideFishSchedule .btn-success[disabled]:active,
+#tideFishSchedule fieldset[disabled] .btn-success:active,
+#tideFishSchedule .btn-success.disabled.active,
+#tideFishSchedule .btn-success[disabled].active,
+#tideFishSchedule fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#tideFishSchedule .btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+#tideFishSchedule .btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#tideFishSchedule .btn-info:hover,
+#tideFishSchedule .btn-info:focus,
+#tideFishSchedule .btn-info:active,
+#tideFishSchedule .btn-info.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+#tideFishSchedule .btn-info:active,
+#tideFishSchedule .btn-info.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+#tideFishSchedule .btn-info.disabled,
+#tideFishSchedule .btn-info[disabled],
+#tideFishSchedule fieldset[disabled] .btn-info,
+#tideFishSchedule .btn-info.disabled:hover,
+#tideFishSchedule .btn-info[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-info:hover,
+#tideFishSchedule .btn-info.disabled:focus,
+#tideFishSchedule .btn-info[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-info:focus,
+#tideFishSchedule .btn-info.disabled:active,
+#tideFishSchedule .btn-info[disabled]:active,
+#tideFishSchedule fieldset[disabled] .btn-info:active,
+#tideFishSchedule .btn-info.disabled.active,
+#tideFishSchedule .btn-info[disabled].active,
+#tideFishSchedule fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#tideFishSchedule .btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+#tideFishSchedule .btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#tideFishSchedule .btn-warning:hover,
+#tideFishSchedule .btn-warning:focus,
+#tideFishSchedule .btn-warning:active,
+#tideFishSchedule .btn-warning.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+#tideFishSchedule .btn-warning:active,
+#tideFishSchedule .btn-warning.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+#tideFishSchedule .btn-warning.disabled,
+#tideFishSchedule .btn-warning[disabled],
+#tideFishSchedule fieldset[disabled] .btn-warning,
+#tideFishSchedule .btn-warning.disabled:hover,
+#tideFishSchedule .btn-warning[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-warning:hover,
+#tideFishSchedule .btn-warning.disabled:focus,
+#tideFishSchedule .btn-warning[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-warning:focus,
+#tideFishSchedule .btn-warning.disabled:active,
+#tideFishSchedule .btn-warning[disabled]:active,
+#tideFishSchedule fieldset[disabled] .btn-warning:active,
+#tideFishSchedule .btn-warning.disabled.active,
+#tideFishSchedule .btn-warning[disabled].active,
+#tideFishSchedule fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#tideFishSchedule .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+#tideFishSchedule .btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#tideFishSchedule .btn-danger:hover,
+#tideFishSchedule .btn-danger:focus,
+#tideFishSchedule .btn-danger:active,
+#tideFishSchedule .btn-danger.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+#tideFishSchedule .btn-danger:active,
+#tideFishSchedule .btn-danger.active,
+#tideFishSchedule .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+#tideFishSchedule .btn-danger.disabled,
+#tideFishSchedule .btn-danger[disabled],
+#tideFishSchedule fieldset[disabled] .btn-danger,
+#tideFishSchedule .btn-danger.disabled:hover,
+#tideFishSchedule .btn-danger[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-danger:hover,
+#tideFishSchedule .btn-danger.disabled:focus,
+#tideFishSchedule .btn-danger[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-danger:focus,
+#tideFishSchedule .btn-danger.disabled:active,
+#tideFishSchedule .btn-danger[disabled]:active,
+#tideFishSchedule fieldset[disabled] .btn-danger:active,
+#tideFishSchedule .btn-danger.disabled.active,
+#tideFishSchedule .btn-danger[disabled].active,
+#tideFishSchedule fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#tideFishSchedule .btn-danger .badge {
+  color: #d9534f;
+  background-color: #fff;
+}
+#tideFishSchedule .btn-link {
+  font-weight: normal;
+  color: #428bca;
+  cursor: pointer;
+  border-radius: 0;
+}
+#tideFishSchedule .btn-link,
+#tideFishSchedule .btn-link:active,
+#tideFishSchedule .btn-link[disabled],
+#tideFishSchedule fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#tideFishSchedule .btn-link,
+#tideFishSchedule .btn-link:hover,
+#tideFishSchedule .btn-link:focus,
+#tideFishSchedule .btn-link:active {
+  border-color: transparent;
+}
+#tideFishSchedule .btn-link:hover,
+#tideFishSchedule .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#tideFishSchedule .btn-link[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .btn-link:hover,
+#tideFishSchedule .btn-link[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .btn-link:focus {
+  color: #777;
+  text-decoration: none;
+}
+#tideFishSchedule .btn-lg,
+#tideFishSchedule .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#tideFishSchedule .btn-sm,
+#tideFishSchedule .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#tideFishSchedule .btn-xs,
+#tideFishSchedule .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#tideFishSchedule .btn-block {
+  display: block;
+  width: 100%;
+}
+#tideFishSchedule .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#tideFishSchedule input[type="submit"].btn-block,
+#tideFishSchedule input[type="reset"].btn-block,
+#tideFishSchedule input[type="button"].btn-block {
+  width: 100%;
+}
+#tideFishSchedule .fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+}
+#tideFishSchedule .fade.in {
+  opacity: 1;
+}
+#tideFishSchedule .collapse {
+  display: none;
+}
+#tideFishSchedule .collapse.in {
+  display: block;
+}
+#tideFishSchedule tr.collapse.in {
+  display: table-row;
+}
+#tideFishSchedule tbody.collapse.in {
+  display: table-row-group;
+}
+#tideFishSchedule .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .35s ease;
+  -o-transition: height .35s ease;
+  transition: height .35s ease;
+}
+#tideFishSchedule .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+#tideFishSchedule .dropdown {
+  position: relative;
+}
+#tideFishSchedule .dropdown-toggle:focus {
+  outline: 0;
+}
+#tideFishSchedule .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+#tideFishSchedule .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+#tideFishSchedule .dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#tideFishSchedule .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+#tideFishSchedule .dropdown-menu > li > a:hover,
+#tideFishSchedule .dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+#tideFishSchedule .dropdown-menu > .active > a,
+#tideFishSchedule .dropdown-menu > .active > a:hover,
+#tideFishSchedule .dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #428bca;
+  outline: 0;
+}
+#tideFishSchedule .dropdown-menu > .disabled > a,
+#tideFishSchedule .dropdown-menu > .disabled > a:hover,
+#tideFishSchedule .dropdown-menu > .disabled > a:focus {
+  color: #777;
+}
+#tideFishSchedule .dropdown-menu > .disabled > a:hover,
+#tideFishSchedule .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+#tideFishSchedule .open > .dropdown-menu {
+  display: block;
+}
+#tideFishSchedule .open > a {
+  outline: 0;
+}
+#tideFishSchedule .dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+#tideFishSchedule .dropdown-menu-left {
+  right: auto;
+  left: 0;
+}
+#tideFishSchedule .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #777;
+  white-space: nowrap;
+}
+#tideFishSchedule .dropdown-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 990;
+}
+#tideFishSchedule .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#tideFishSchedule .dropup .caret,
+#tideFishSchedule .navbar-fixed-bottom .dropdown .caret {
+  content: "";
+  border-top: 0;
+  border-bottom: 4px solid;
+}
+#tideFishSchedule .dropup .dropdown-menu,
+#tideFishSchedule .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  #tideFishSchedule .navbar-right .dropdown-menu-left {
+    right: auto;
+    left: 0;
+  }
+}
+#tideFishSchedule .btn-group,
+#tideFishSchedule .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+#tideFishSchedule .btn-group > .btn,
+#tideFishSchedule .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+#tideFishSchedule .btn-group > .btn:hover,
+#tideFishSchedule .btn-group-vertical > .btn:hover,
+#tideFishSchedule .btn-group > .btn:focus,
+#tideFishSchedule .btn-group-vertical > .btn:focus,
+#tideFishSchedule .btn-group > .btn:active,
+#tideFishSchedule .btn-group-vertical > .btn:active,
+#tideFishSchedule .btn-group > .btn.active,
+#tideFishSchedule .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+#tideFishSchedule .btn-group > .btn:focus,
+#tideFishSchedule .btn-group-vertical > .btn:focus {
+  outline: 0;
+}
+#tideFishSchedule .btn-group .btn + .btn,
+#tideFishSchedule .btn-group .btn + .btn-group,
+#tideFishSchedule .btn-group .btn-group + .btn,
+#tideFishSchedule .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+#tideFishSchedule .btn-toolbar {
+  margin-left: -5px;
+}
+#tideFishSchedule .btn-toolbar .btn-group,
+#tideFishSchedule .btn-toolbar .input-group {
+  float: left;
+}
+#tideFishSchedule .btn-toolbar > .btn,
+#tideFishSchedule .btn-toolbar > .btn-group,
+#tideFishSchedule .btn-toolbar > .input-group {
+  margin-left: 5px;
+}
+#tideFishSchedule .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+#tideFishSchedule .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+#tideFishSchedule .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#tideFishSchedule .btn-group > .btn:last-child:not(:first-child),
+#tideFishSchedule .btn-group > .dropdown-toggle:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#tideFishSchedule .btn-group > .btn-group {
+  float: left;
+}
+#tideFishSchedule .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#tideFishSchedule .btn-group > .btn-group:first-child > .btn:last-child,
+#tideFishSchedule .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#tideFishSchedule .btn-group > .btn-group:last-child > .btn:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#tideFishSchedule .btn-group .dropdown-toggle:active,
+#tideFishSchedule .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+#tideFishSchedule .btn-group > .btn + .dropdown-toggle {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+#tideFishSchedule .btn-group > .btn-lg + .dropdown-toggle {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+#tideFishSchedule .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#tideFishSchedule .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#tideFishSchedule .btn .caret {
+  margin-left: 0;
+}
+#tideFishSchedule .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+#tideFishSchedule .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+#tideFishSchedule .btn-group-vertical > .btn,
+#tideFishSchedule .btn-group-vertical > .btn-group,
+#tideFishSchedule .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+#tideFishSchedule .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+#tideFishSchedule .btn-group-vertical > .btn + .btn,
+#tideFishSchedule .btn-group-vertical > .btn + .btn-group,
+#tideFishSchedule .btn-group-vertical > .btn-group + .btn,
+#tideFishSchedule .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+#tideFishSchedule .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#tideFishSchedule .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#tideFishSchedule .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+}
+#tideFishSchedule .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#tideFishSchedule .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+#tideFishSchedule .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#tideFishSchedule .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#tideFishSchedule .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+#tideFishSchedule .btn-group-justified > .btn,
+#tideFishSchedule .btn-group-justified > .btn-group {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+#tideFishSchedule .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+#tideFishSchedule .btn-group-justified > .btn-group .dropdown-menu {
+  left: auto;
+}
+#tideFishSchedule [data-toggle="buttons"] > .btn > input[type="radio"],
+#tideFishSchedule [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+#tideFishSchedule .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+#tideFishSchedule .input-group[class*="col-"] {
+  float: none;
+  padding-right: 0;
+  padding-left: 0;
+}
+#tideFishSchedule .input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+#tideFishSchedule .input-group-lg > .form-control,
+#tideFishSchedule .input-group-lg > .input-group-addon,
+#tideFishSchedule .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#tideFishSchedule select.input-group-lg > .form-control,
+#tideFishSchedule select.input-group-lg > .input-group-addon,
+#tideFishSchedule select.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+#tideFishSchedule textarea.input-group-lg > .form-control,
+#tideFishSchedule textarea.input-group-lg > .input-group-addon,
+#tideFishSchedule textarea.input-group-lg > .input-group-btn > .btn,
+#tideFishSchedule select[multiple].input-group-lg > .form-control,
+#tideFishSchedule select[multiple].input-group-lg > .input-group-addon,
+#tideFishSchedule select[multiple].input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+#tideFishSchedule .input-group-sm > .form-control,
+#tideFishSchedule .input-group-sm > .input-group-addon,
+#tideFishSchedule .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#tideFishSchedule select.input-group-sm > .form-control,
+#tideFishSchedule select.input-group-sm > .input-group-addon,
+#tideFishSchedule select.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+#tideFishSchedule textarea.input-group-sm > .form-control,
+#tideFishSchedule textarea.input-group-sm > .input-group-addon,
+#tideFishSchedule textarea.input-group-sm > .input-group-btn > .btn,
+#tideFishSchedule select[multiple].input-group-sm > .form-control,
+#tideFishSchedule select[multiple].input-group-sm > .input-group-addon,
+#tideFishSchedule select[multiple].input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+#tideFishSchedule .input-group-addon,
+#tideFishSchedule .input-group-btn,
+#tideFishSchedule .input-group .form-control {
+  display: table-cell;
+}
+#tideFishSchedule .input-group-addon:not(:first-child):not(:last-child),
+#tideFishSchedule .input-group-btn:not(:first-child):not(:last-child),
+#tideFishSchedule .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#tideFishSchedule .input-group-addon,
+#tideFishSchedule .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#tideFishSchedule .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#tideFishSchedule .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+#tideFishSchedule .input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+#tideFishSchedule .input-group-addon input[type="radio"],
+#tideFishSchedule .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+#tideFishSchedule .input-group .form-control:first-child,
+#tideFishSchedule .input-group-addon:first-child,
+#tideFishSchedule .input-group-btn:first-child > .btn,
+#tideFishSchedule .input-group-btn:first-child > .btn-group > .btn,
+#tideFishSchedule .input-group-btn:first-child > .dropdown-toggle,
+#tideFishSchedule .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+#tideFishSchedule .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#tideFishSchedule .input-group-addon:first-child {
+  border-right: 0;
+}
+#tideFishSchedule .input-group .form-control:last-child,
+#tideFishSchedule .input-group-addon:last-child,
+#tideFishSchedule .input-group-btn:last-child > .btn,
+#tideFishSchedule .input-group-btn:last-child > .btn-group > .btn,
+#tideFishSchedule .input-group-btn:last-child > .dropdown-toggle,
+#tideFishSchedule .input-group-btn:first-child > .btn:not(:first-child),
+#tideFishSchedule .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#tideFishSchedule .input-group-addon:last-child {
+  border-left: 0;
+}
+#tideFishSchedule .input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+#tideFishSchedule .input-group-btn > .btn {
+  position: relative;
+}
+#tideFishSchedule .input-group-btn > .btn + .btn {
+  margin-left: -1px;
+}
+#tideFishSchedule .input-group-btn > .btn:hover,
+#tideFishSchedule .input-group-btn > .btn:focus,
+#tideFishSchedule .input-group-btn > .btn:active {
+  z-index: 2;
+}
+#tideFishSchedule .input-group-btn:first-child > .btn,
+#tideFishSchedule .input-group-btn:first-child > .btn-group {
+  margin-right: -1px;
+}
+#tideFishSchedule .input-group-btn:last-child > .btn,
+#tideFishSchedule .input-group-btn:last-child > .btn-group {
+  margin-left: -1px;
+}
+#tideFishSchedule .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+#tideFishSchedule .nav > li {
+  position: relative;
+  display: block;
+}
+#tideFishSchedule .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+#tideFishSchedule .nav > li > a:hover,
+#tideFishSchedule .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+#tideFishSchedule .nav > li.disabled > a {
+  color: #777;
+}
+#tideFishSchedule .nav > li.disabled > a:hover,
+#tideFishSchedule .nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+#tideFishSchedule .nav .open > a,
+#tideFishSchedule .nav .open > a:hover,
+#tideFishSchedule .nav .open > a:focus {
+  background-color: #eee;
+  border-color: #428bca;
+}
+#tideFishSchedule .nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#tideFishSchedule .nav > li > a > img {
+  max-width: none;
+}
+#tideFishSchedule .nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+#tideFishSchedule .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+#tideFishSchedule .nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+#tideFishSchedule .nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+#tideFishSchedule .nav-tabs > li.active > a,
+#tideFishSchedule .nav-tabs > li.active > a:hover,
+#tideFishSchedule .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+#tideFishSchedule .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+#tideFishSchedule .nav-tabs.nav-justified > li {
+  float: none;
+}
+#tideFishSchedule .nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+#tideFishSchedule .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  #tideFishSchedule .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+#tideFishSchedule .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+#tideFishSchedule .nav-tabs.nav-justified > .active > a,
+#tideFishSchedule .nav-tabs.nav-justified > .active > a:hover,
+#tideFishSchedule .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  #tideFishSchedule .nav-tabs.nav-justified > .active > a,
+  #tideFishSchedule .nav-tabs.nav-justified > .active > a:hover,
+  #tideFishSchedule .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+#tideFishSchedule .nav-pills > li {
+  float: left;
+}
+#tideFishSchedule .nav-pills > li > a {
+  border-radius: 4px;
+}
+#tideFishSchedule .nav-pills > li + li {
+  margin-left: 2px;
+}
+#tideFishSchedule .nav-pills > li.active > a,
+#tideFishSchedule .nav-pills > li.active > a:hover,
+#tideFishSchedule .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+#tideFishSchedule .nav-stacked > li {
+  float: none;
+}
+#tideFishSchedule .nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+#tideFishSchedule .nav-justified {
+  width: 100%;
+}
+#tideFishSchedule .nav-justified > li {
+  float: none;
+}
+#tideFishSchedule .nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+#tideFishSchedule .nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  #tideFishSchedule .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+#tideFishSchedule .nav-tabs-justified {
+  border-bottom: 0;
+}
+#tideFishSchedule .nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+#tideFishSchedule .nav-tabs-justified > .active > a,
+#tideFishSchedule .nav-tabs-justified > .active > a:hover,
+#tideFishSchedule .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  #tideFishSchedule .nav-tabs-justified > .active > a,
+  #tideFishSchedule .nav-tabs-justified > .active > a:hover,
+  #tideFishSchedule .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+#tideFishSchedule .tab-content > .tab-pane {
+  display: none;
+}
+#tideFishSchedule .tab-content > .active {
+  display: block;
+}
+#tideFishSchedule .nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#tideFishSchedule .navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar {
+    border-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-header {
+    float: left;
+  }
+}
+#tideFishSchedule .navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#tideFishSchedule .navbar-collapse.in {
+  overflow-y: auto;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  #tideFishSchedule .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  #tideFishSchedule .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  #tideFishSchedule .navbar-fixed-top .navbar-collapse,
+  #tideFishSchedule .navbar-static-top .navbar-collapse,
+  #tideFishSchedule .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+#tideFishSchedule .navbar-fixed-top .navbar-collapse,
+#tideFishSchedule .navbar-fixed-bottom .navbar-collapse {
+  max-height: 340px;
+}
+@media (max-width: 480px) and (orientation: landscape) {
+  #tideFishSchedule .navbar-fixed-top .navbar-collapse,
+  #tideFishSchedule .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+  }
+}
+#tideFishSchedule .container > .navbar-header,
+#tideFishSchedule .container-fluid > .navbar-header,
+#tideFishSchedule .container > .navbar-collapse,
+#tideFishSchedule .container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .container > .navbar-header,
+  #tideFishSchedule .container-fluid > .navbar-header,
+  #tideFishSchedule .container > .navbar-collapse,
+  #tideFishSchedule .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+#tideFishSchedule .navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-static-top {
+    border-radius: 0;
+  }
+}
+#tideFishSchedule .navbar-fixed-top,
+#tideFishSchedule .navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-fixed-top,
+  #tideFishSchedule .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+#tideFishSchedule .navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+#tideFishSchedule .navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+#tideFishSchedule .navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+#tideFishSchedule .navbar-brand:hover,
+#tideFishSchedule .navbar-brand:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar > .container .navbar-brand,
+  #tideFishSchedule .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+#tideFishSchedule .navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#tideFishSchedule .navbar-toggle:focus {
+  outline: 0;
+}
+#tideFishSchedule .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+#tideFishSchedule .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-toggle {
+    display: none;
+  }
+}
+#tideFishSchedule .navbar-nav {
+  margin: 7.5px -15px;
+}
+#tideFishSchedule .navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  #tideFishSchedule .navbar-nav .open .dropdown-menu > li > a,
+  #tideFishSchedule .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  #tideFishSchedule .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  #tideFishSchedule .navbar-nav .open .dropdown-menu > li > a:hover,
+  #tideFishSchedule .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  #tideFishSchedule .navbar-nav > li {
+    float: left;
+  }
+  #tideFishSchedule .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #tideFishSchedule .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-left {
+    float: left !important;
+  }
+  #tideFishSchedule .navbar-right {
+    float: right !important;
+  }
+}
+#tideFishSchedule .navbar-form {
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-right: -15px;
+  margin-bottom: 8px;
+  margin-left: -15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .navbar-form .input-group .input-group-addon,
+  #tideFishSchedule .navbar-form .input-group .input-group-btn,
+  #tideFishSchedule .navbar-form .input-group .form-control {
+    width: auto;
+  }
+  #tideFishSchedule .navbar-form .input-group > .form-control {
+    width: 100%;
+  }
+  #tideFishSchedule .navbar-form .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .navbar-form .radio,
+  #tideFishSchedule .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #tideFishSchedule .navbar-form .radio label,
+  #tideFishSchedule .navbar-form .checkbox label {
+    padding-left: 0;
+  }
+  #tideFishSchedule .navbar-form .radio input[type="radio"],
+  #tideFishSchedule .navbar-form .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  #tideFishSchedule .navbar-form .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-form {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  #tideFishSchedule .navbar-form.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+#tideFishSchedule .navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#tideFishSchedule .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#tideFishSchedule .navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#tideFishSchedule .navbar-btn.btn-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#tideFishSchedule .navbar-btn.btn-xs {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+#tideFishSchedule .navbar-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .navbar-text {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  #tideFishSchedule .navbar-text.navbar-right:last-child {
+    margin-right: 0;
+  }
+}
+#tideFishSchedule .navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+#tideFishSchedule .navbar-default .navbar-brand {
+  color: #777;
+}
+#tideFishSchedule .navbar-default .navbar-brand:hover,
+#tideFishSchedule .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+#tideFishSchedule .navbar-default .navbar-text {
+  color: #777;
+}
+#tideFishSchedule .navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+#tideFishSchedule .navbar-default .navbar-nav > li > a:hover,
+#tideFishSchedule .navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+#tideFishSchedule .navbar-default .navbar-nav > .active > a,
+#tideFishSchedule .navbar-default .navbar-nav > .active > a:hover,
+#tideFishSchedule .navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+#tideFishSchedule .navbar-default .navbar-nav > .disabled > a,
+#tideFishSchedule .navbar-default .navbar-nav > .disabled > a:hover,
+#tideFishSchedule .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+#tideFishSchedule .navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+#tideFishSchedule .navbar-default .navbar-toggle:hover,
+#tideFishSchedule .navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+#tideFishSchedule .navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+#tideFishSchedule .navbar-default .navbar-collapse,
+#tideFishSchedule .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+#tideFishSchedule .navbar-default .navbar-nav > .open > a,
+#tideFishSchedule .navbar-default .navbar-nav > .open > a:hover,
+#tideFishSchedule .navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  #tideFishSchedule .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+#tideFishSchedule .navbar-default .navbar-link {
+  color: #777;
+}
+#tideFishSchedule .navbar-default .navbar-link:hover {
+  color: #333;
+}
+#tideFishSchedule .navbar-default .btn-link {
+  color: #777;
+}
+#tideFishSchedule .navbar-default .btn-link:hover,
+#tideFishSchedule .navbar-default .btn-link:focus {
+  color: #333;
+}
+#tideFishSchedule .navbar-default .btn-link[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .navbar-default .btn-link:hover,
+#tideFishSchedule .navbar-default .btn-link[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
+#tideFishSchedule .navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+#tideFishSchedule .navbar-inverse .navbar-brand {
+  color: #777;
+}
+#tideFishSchedule .navbar-inverse .navbar-brand:hover,
+#tideFishSchedule .navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+#tideFishSchedule .navbar-inverse .navbar-text {
+  color: #777;
+}
+#tideFishSchedule .navbar-inverse .navbar-nav > li > a {
+  color: #777;
+}
+#tideFishSchedule .navbar-inverse .navbar-nav > li > a:hover,
+#tideFishSchedule .navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+#tideFishSchedule .navbar-inverse .navbar-nav > .active > a,
+#tideFishSchedule .navbar-inverse .navbar-nav > .active > a:hover,
+#tideFishSchedule .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+#tideFishSchedule .navbar-inverse .navbar-nav > .disabled > a,
+#tideFishSchedule .navbar-inverse .navbar-nav > .disabled > a:hover,
+#tideFishSchedule .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+#tideFishSchedule .navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+#tideFishSchedule .navbar-inverse .navbar-toggle:hover,
+#tideFishSchedule .navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+#tideFishSchedule .navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+#tideFishSchedule .navbar-inverse .navbar-collapse,
+#tideFishSchedule .navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+#tideFishSchedule .navbar-inverse .navbar-nav > .open > a,
+#tideFishSchedule .navbar-inverse .navbar-nav > .open > a:hover,
+#tideFishSchedule .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+  }
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  #tideFishSchedule .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+#tideFishSchedule .navbar-inverse .navbar-link {
+  color: #777;
+}
+#tideFishSchedule .navbar-inverse .navbar-link:hover {
+  color: #fff;
+}
+#tideFishSchedule .navbar-inverse .btn-link {
+  color: #777;
+}
+#tideFishSchedule .navbar-inverse .btn-link:hover,
+#tideFishSchedule .navbar-inverse .btn-link:focus {
+  color: #fff;
+}
+#tideFishSchedule .navbar-inverse .btn-link[disabled]:hover,
+#tideFishSchedule fieldset[disabled] .navbar-inverse .btn-link:hover,
+#tideFishSchedule .navbar-inverse .btn-link[disabled]:focus,
+#tideFishSchedule fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444;
+}
+#tideFishSchedule .breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+#tideFishSchedule .breadcrumb > li {
+  display: inline-block;
+}
+#tideFishSchedule .breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+#tideFishSchedule .breadcrumb > .active {
+  color: #777;
+}
+#tideFishSchedule .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+#tideFishSchedule .pagination > li {
+  display: inline;
+}
+#tideFishSchedule .pagination > li > a,
+#tideFishSchedule .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #428bca;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+#tideFishSchedule .pagination > li:first-child > a,
+#tideFishSchedule .pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#tideFishSchedule .pagination > li:last-child > a,
+#tideFishSchedule .pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+#tideFishSchedule .pagination > li > a:hover,
+#tideFishSchedule .pagination > li > span:hover,
+#tideFishSchedule .pagination > li > a:focus,
+#tideFishSchedule .pagination > li > span:focus {
+  color: #2a6496;
+  background-color: #eee;
+  border-color: #ddd;
+}
+#tideFishSchedule .pagination > .active > a,
+#tideFishSchedule .pagination > .active > span,
+#tideFishSchedule .pagination > .active > a:hover,
+#tideFishSchedule .pagination > .active > span:hover,
+#tideFishSchedule .pagination > .active > a:focus,
+#tideFishSchedule .pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#tideFishSchedule .pagination > .disabled > span,
+#tideFishSchedule .pagination > .disabled > span:hover,
+#tideFishSchedule .pagination > .disabled > span:focus,
+#tideFishSchedule .pagination > .disabled > a,
+#tideFishSchedule .pagination > .disabled > a:hover,
+#tideFishSchedule .pagination > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+#tideFishSchedule .pagination-lg > li > a,
+#tideFishSchedule .pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+#tideFishSchedule .pagination-lg > li:first-child > a,
+#tideFishSchedule .pagination-lg > li:first-child > span {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#tideFishSchedule .pagination-lg > li:last-child > a,
+#tideFishSchedule .pagination-lg > li:last-child > span {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#tideFishSchedule .pagination-sm > li > a,
+#tideFishSchedule .pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+#tideFishSchedule .pagination-sm > li:first-child > a,
+#tideFishSchedule .pagination-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#tideFishSchedule .pagination-sm > li:last-child > a,
+#tideFishSchedule .pagination-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#tideFishSchedule .pager {
+  padding-left: 0;
+  margin: 20px 0;
+  text-align: center;
+  list-style: none;
+}
+#tideFishSchedule .pager li {
+  display: inline;
+}
+#tideFishSchedule .pager li > a,
+#tideFishSchedule .pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+#tideFishSchedule .pager li > a:hover,
+#tideFishSchedule .pager li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+#tideFishSchedule .pager .next > a,
+#tideFishSchedule .pager .next > span {
+  float: right;
+}
+#tideFishSchedule .pager .previous > a,
+#tideFishSchedule .pager .previous > span {
+  float: left;
+}
+#tideFishSchedule .pager .disabled > a,
+#tideFishSchedule .pager .disabled > a:hover,
+#tideFishSchedule .pager .disabled > a:focus,
+#tideFishSchedule .pager .disabled > span {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+}
+#tideFishSchedule .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+#tideFishSchedule a.label:hover,
+#tideFishSchedule a.label:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#tideFishSchedule .label:empty {
+  display: none;
+}
+#tideFishSchedule .btn .label {
+  position: relative;
+  top: -1px;
+}
+#tideFishSchedule .label-default {
+  background-color: #777;
+}
+#tideFishSchedule .label-default[href]:hover,
+#tideFishSchedule .label-default[href]:focus {
+  background-color: #5e5e5e;
+}
+#tideFishSchedule .label-primary {
+  background-color: #428bca;
+}
+#tideFishSchedule .label-primary[href]:hover,
+#tideFishSchedule .label-primary[href]:focus {
+  background-color: #3071a9;
+}
+#tideFishSchedule .label-success {
+  background-color: #5cb85c;
+}
+#tideFishSchedule .label-success[href]:hover,
+#tideFishSchedule .label-success[href]:focus {
+  background-color: #449d44;
+}
+#tideFishSchedule .label-info {
+  background-color: #5bc0de;
+}
+#tideFishSchedule .label-info[href]:hover,
+#tideFishSchedule .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+#tideFishSchedule .label-warning {
+  background-color: #f0ad4e;
+}
+#tideFishSchedule .label-warning[href]:hover,
+#tideFishSchedule .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+#tideFishSchedule .label-danger {
+  background-color: #d9534f;
+}
+#tideFishSchedule .label-danger[href]:hover,
+#tideFishSchedule .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+#tideFishSchedule .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #777;
+  border-radius: 10px;
+}
+#tideFishSchedule .badge:empty {
+  display: none;
+}
+#tideFishSchedule .btn .badge {
+  position: relative;
+  top: -1px;
+}
+#tideFishSchedule .btn-xs .badge {
+  top: 0;
+  padding: 1px 5px;
+}
+#tideFishSchedule a.badge:hover,
+#tideFishSchedule a.badge:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#tideFishSchedule a.list-group-item.active > .badge,
+#tideFishSchedule .nav-pills > .active > a > .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+#tideFishSchedule .nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+#tideFishSchedule .jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+#tideFishSchedule .jumbotron h1,
+#tideFishSchedule .jumbotron .h1 {
+  color: inherit;
+}
+#tideFishSchedule .jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+#tideFishSchedule .jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+#tideFishSchedule .container .jumbotron {
+  border-radius: 6px;
+}
+#tideFishSchedule .jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #tideFishSchedule .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  #tideFishSchedule .container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  #tideFishSchedule .jumbotron h1,
+  #tideFishSchedule .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+#tideFishSchedule .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#tideFishSchedule .thumbnail > img,
+#tideFishSchedule .thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+#tideFishSchedule a.thumbnail:hover,
+#tideFishSchedule a.thumbnail:focus,
+#tideFishSchedule a.thumbnail.active {
+  border-color: #428bca;
+}
+#tideFishSchedule .thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+#tideFishSchedule .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#tideFishSchedule .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+#tideFishSchedule .alert .alert-link {
+  font-weight: bold;
+}
+#tideFishSchedule .alert > p,
+#tideFishSchedule .alert > ul {
+  margin-bottom: 0;
+}
+#tideFishSchedule .alert > p + p {
+  margin-top: 5px;
+}
+#tideFishSchedule .alert-dismissable,
+#tideFishSchedule .alert-dismissible {
+  padding-right: 35px;
+}
+#tideFishSchedule .alert-dismissable .close,
+#tideFishSchedule .alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+#tideFishSchedule .alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+#tideFishSchedule .alert-success hr {
+  border-top-color: #c9e2b3;
+}
+#tideFishSchedule .alert-success .alert-link {
+  color: #2b542c;
+}
+#tideFishSchedule .alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+#tideFishSchedule .alert-info hr {
+  border-top-color: #a6e1ec;
+}
+#tideFishSchedule .alert-info .alert-link {
+  color: #245269;
+}
+#tideFishSchedule .alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+#tideFishSchedule .alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+#tideFishSchedule .alert-warning .alert-link {
+  color: #66512c;
+}
+#tideFishSchedule .alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+#tideFishSchedule .alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+#tideFishSchedule .alert-danger .alert-link {
+  color: #843534;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+#tideFishSchedule .progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#tideFishSchedule .progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+}
+#tideFishSchedule .progress-striped .progress-bar,
+#tideFishSchedule .progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+#tideFishSchedule .progress.active .progress-bar,
+#tideFishSchedule .progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+#tideFishSchedule .progress-bar[aria-valuenow="1"],
+#tideFishSchedule .progress-bar[aria-valuenow="2"] {
+  min-width: 30px;
+}
+#tideFishSchedule .progress-bar[aria-valuenow="0"] {
+  min-width: 30px;
+  color: #777;
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#tideFishSchedule .progress-bar-success {
+  background-color: #5cb85c;
+}
+#tideFishSchedule .progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#tideFishSchedule .progress-bar-info {
+  background-color: #5bc0de;
+}
+#tideFishSchedule .progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#tideFishSchedule .progress-bar-warning {
+  background-color: #f0ad4e;
+}
+#tideFishSchedule .progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#tideFishSchedule .progress-bar-danger {
+  background-color: #d9534f;
+}
+#tideFishSchedule .progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#tideFishSchedule .media,
+#tideFishSchedule .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+#tideFishSchedule .media,
+#tideFishSchedule .media .media {
+  margin-top: 15px;
+}
+#tideFishSchedule .media:first-child {
+  margin-top: 0;
+}
+#tideFishSchedule .media-object {
+  display: block;
+}
+#tideFishSchedule .media-heading {
+  margin: 0 0 5px;
+}
+#tideFishSchedule .media > .pull-left {
+  margin-right: 10px;
+}
+#tideFishSchedule .media > .pull-right {
+  margin-left: 10px;
+}
+#tideFishSchedule .media-list {
+  padding-left: 0;
+  list-style: none;
+}
+#tideFishSchedule .list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+#tideFishSchedule .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+#tideFishSchedule .list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#tideFishSchedule .list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#tideFishSchedule .list-group-item > .badge {
+  float: right;
+}
+#tideFishSchedule .list-group-item > .badge + .badge {
+  margin-right: 5px;
+}
+#tideFishSchedule a.list-group-item {
+  color: #555;
+}
+#tideFishSchedule a.list-group-item .list-group-item-heading {
+  color: #333;
+}
+#tideFishSchedule a.list-group-item:hover,
+#tideFishSchedule a.list-group-item:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+#tideFishSchedule .list-group-item.disabled,
+#tideFishSchedule .list-group-item.disabled:hover,
+#tideFishSchedule .list-group-item.disabled:focus {
+  color: #777;
+  background-color: #eee;
+}
+#tideFishSchedule .list-group-item.disabled .list-group-item-heading,
+#tideFishSchedule .list-group-item.disabled:hover .list-group-item-heading,
+#tideFishSchedule .list-group-item.disabled:focus .list-group-item-heading {
+  color: inherit;
+}
+#tideFishSchedule .list-group-item.disabled .list-group-item-text,
+#tideFishSchedule .list-group-item.disabled:hover .list-group-item-text,
+#tideFishSchedule .list-group-item.disabled:focus .list-group-item-text {
+  color: #777;
+}
+#tideFishSchedule .list-group-item.active,
+#tideFishSchedule .list-group-item.active:hover,
+#tideFishSchedule .list-group-item.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#tideFishSchedule .list-group-item.active .list-group-item-heading,
+#tideFishSchedule .list-group-item.active:hover .list-group-item-heading,
+#tideFishSchedule .list-group-item.active:focus .list-group-item-heading,
+#tideFishSchedule .list-group-item.active .list-group-item-heading > small,
+#tideFishSchedule .list-group-item.active:hover .list-group-item-heading > small,
+#tideFishSchedule .list-group-item.active:focus .list-group-item-heading > small,
+#tideFishSchedule .list-group-item.active .list-group-item-heading > .small,
+#tideFishSchedule .list-group-item.active:hover .list-group-item-heading > .small,
+#tideFishSchedule .list-group-item.active:focus .list-group-item-heading > .small {
+  color: inherit;
+}
+#tideFishSchedule .list-group-item.active .list-group-item-text,
+#tideFishSchedule .list-group-item.active:hover .list-group-item-text,
+#tideFishSchedule .list-group-item.active:focus .list-group-item-text {
+  color: #e1edf7;
+}
+#tideFishSchedule .list-group-item-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+#tideFishSchedule a.list-group-item-success {
+  color: #3c763d;
+}
+#tideFishSchedule a.list-group-item-success .list-group-item-heading {
+  color: inherit;
+}
+#tideFishSchedule a.list-group-item-success:hover,
+#tideFishSchedule a.list-group-item-success:focus {
+  color: #3c763d;
+  background-color: #d0e9c6;
+}
+#tideFishSchedule a.list-group-item-success.active,
+#tideFishSchedule a.list-group-item-success.active:hover,
+#tideFishSchedule a.list-group-item-success.active:focus {
+  color: #fff;
+  background-color: #3c763d;
+  border-color: #3c763d;
+}
+#tideFishSchedule .list-group-item-info {
+  color: #31708f;
+  background-color: #d9edf7;
+}
+#tideFishSchedule a.list-group-item-info {
+  color: #31708f;
+}
+#tideFishSchedule a.list-group-item-info .list-group-item-heading {
+  color: inherit;
+}
+#tideFishSchedule a.list-group-item-info:hover,
+#tideFishSchedule a.list-group-item-info:focus {
+  color: #31708f;
+  background-color: #c4e3f3;
+}
+#tideFishSchedule a.list-group-item-info.active,
+#tideFishSchedule a.list-group-item-info.active:hover,
+#tideFishSchedule a.list-group-item-info.active:focus {
+  color: #fff;
+  background-color: #31708f;
+  border-color: #31708f;
+}
+#tideFishSchedule .list-group-item-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+#tideFishSchedule a.list-group-item-warning {
+  color: #8a6d3b;
+}
+#tideFishSchedule a.list-group-item-warning .list-group-item-heading {
+  color: inherit;
+}
+#tideFishSchedule a.list-group-item-warning:hover,
+#tideFishSchedule a.list-group-item-warning:focus {
+  color: #8a6d3b;
+  background-color: #faf2cc;
+}
+#tideFishSchedule a.list-group-item-warning.active,
+#tideFishSchedule a.list-group-item-warning.active:hover,
+#tideFishSchedule a.list-group-item-warning.active:focus {
+  color: #fff;
+  background-color: #8a6d3b;
+  border-color: #8a6d3b;
+}
+#tideFishSchedule .list-group-item-danger {
+  color: #a94442;
+  background-color: #f2dede;
+}
+#tideFishSchedule a.list-group-item-danger {
+  color: #a94442;
+}
+#tideFishSchedule a.list-group-item-danger .list-group-item-heading {
+  color: inherit;
+}
+#tideFishSchedule a.list-group-item-danger:hover,
+#tideFishSchedule a.list-group-item-danger:focus {
+  color: #a94442;
+  background-color: #ebcccc;
+}
+#tideFishSchedule a.list-group-item-danger.active,
+#tideFishSchedule a.list-group-item-danger.active:hover,
+#tideFishSchedule a.list-group-item-danger.active:focus {
+  color: #fff;
+  background-color: #a94442;
+  border-color: #a94442;
+}
+#tideFishSchedule .list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#tideFishSchedule .list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+#tideFishSchedule .panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#tideFishSchedule .panel-body {
+  padding: 15px;
+}
+#tideFishSchedule .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#tideFishSchedule .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+#tideFishSchedule .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+#tideFishSchedule .panel-title > a {
+  color: inherit;
+}
+#tideFishSchedule .panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#tideFishSchedule .panel > .list-group {
+  margin-bottom: 0;
+}
+#tideFishSchedule .panel > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+#tideFishSchedule .panel > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#tideFishSchedule .panel > .list-group:last-child .list-group-item:last-child {
+  border-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#tideFishSchedule .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+#tideFishSchedule .list-group + .panel-footer {
+  border-top-width: 0;
+}
+#tideFishSchedule .panel > .table,
+#tideFishSchedule .panel > .table-responsive > .table,
+#tideFishSchedule .panel > .panel-collapse > .table {
+  margin-bottom: 0;
+}
+#tideFishSchedule .panel > .table:first-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#tideFishSchedule .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+#tideFishSchedule .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+#tideFishSchedule .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+#tideFishSchedule .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: 3px;
+}
+#tideFishSchedule .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+#tideFishSchedule .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+#tideFishSchedule .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+#tideFishSchedule .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+#tideFishSchedule .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+  border-top-right-radius: 3px;
+}
+#tideFishSchedule .panel > .table:last-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#tideFishSchedule .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+#tideFishSchedule .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+#tideFishSchedule .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+#tideFishSchedule .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: 3px;
+}
+#tideFishSchedule .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+#tideFishSchedule .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+#tideFishSchedule .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+#tideFishSchedule .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+#tideFishSchedule .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+  border-bottom-right-radius: 3px;
+}
+#tideFishSchedule .panel > .panel-body + .table,
+#tideFishSchedule .panel > .panel-body + .table-responsive {
+  border-top: 1px solid #ddd;
+}
+#tideFishSchedule .panel > .table > tbody:first-child > tr:first-child th,
+#tideFishSchedule .panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0;
+}
+#tideFishSchedule .panel > .table-bordered,
+#tideFishSchedule .panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+#tideFishSchedule .panel > .table-bordered > thead > tr > th:first-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+#tideFishSchedule .panel > .table-bordered > tbody > tr > th:first-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+#tideFishSchedule .panel > .table-bordered > tfoot > tr > th:first-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+#tideFishSchedule .panel > .table-bordered > thead > tr > td:first-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+#tideFishSchedule .panel > .table-bordered > tbody > tr > td:first-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+#tideFishSchedule .panel > .table-bordered > tfoot > tr > td:first-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+#tideFishSchedule .panel > .table-bordered > thead > tr > th:last-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+#tideFishSchedule .panel > .table-bordered > tbody > tr > th:last-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+#tideFishSchedule .panel > .table-bordered > tfoot > tr > th:last-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+#tideFishSchedule .panel > .table-bordered > thead > tr > td:last-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+#tideFishSchedule .panel > .table-bordered > tbody > tr > td:last-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+#tideFishSchedule .panel > .table-bordered > tfoot > tr > td:last-child,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+#tideFishSchedule .panel > .table-bordered > thead > tr:first-child > td,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+#tideFishSchedule .panel > .table-bordered > tbody > tr:first-child > td,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+#tideFishSchedule .panel > .table-bordered > thead > tr:first-child > th,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+#tideFishSchedule .panel > .table-bordered > tbody > tr:first-child > th,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+  border-bottom: 0;
+}
+#tideFishSchedule .panel > .table-bordered > tbody > tr:last-child > td,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+#tideFishSchedule .panel > .table-bordered > tfoot > tr:last-child > td,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+#tideFishSchedule .panel > .table-bordered > tbody > tr:last-child > th,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+#tideFishSchedule .panel > .table-bordered > tfoot > tr:last-child > th,
+#tideFishSchedule .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+  border-bottom: 0;
+}
+#tideFishSchedule .panel > .table-responsive {
+  margin-bottom: 0;
+  border: 0;
+}
+#tideFishSchedule .panel-group {
+  margin-bottom: 20px;
+}
+#tideFishSchedule .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+}
+#tideFishSchedule .panel-group .panel + .panel {
+  margin-top: 5px;
+}
+#tideFishSchedule .panel-group .panel-heading {
+  border-bottom: 0;
+}
+#tideFishSchedule .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 1px solid #ddd;
+}
+#tideFishSchedule .panel-group .panel-footer {
+  border-top: 0;
+}
+#tideFishSchedule .panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #ddd;
+}
+#tideFishSchedule .panel-default {
+  border-color: #ddd;
+}
+#tideFishSchedule .panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+#tideFishSchedule .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+#tideFishSchedule .panel-default > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #333;
+}
+#tideFishSchedule .panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+#tideFishSchedule .panel-primary {
+  border-color: #428bca;
+}
+#tideFishSchedule .panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#tideFishSchedule .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #428bca;
+}
+#tideFishSchedule .panel-primary > .panel-heading .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+#tideFishSchedule .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #428bca;
+}
+#tideFishSchedule .panel-success {
+  border-color: #d6e9c6;
+}
+#tideFishSchedule .panel-success > .panel-heading {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+#tideFishSchedule .panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #d6e9c6;
+}
+#tideFishSchedule .panel-success > .panel-heading .badge {
+  color: #dff0d8;
+  background-color: #3c763d;
+}
+#tideFishSchedule .panel-success > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+#tideFishSchedule .panel-info {
+  border-color: #bce8f1;
+}
+#tideFishSchedule .panel-info > .panel-heading {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+#tideFishSchedule .panel-info > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #bce8f1;
+}
+#tideFishSchedule .panel-info > .panel-heading .badge {
+  color: #d9edf7;
+  background-color: #31708f;
+}
+#tideFishSchedule .panel-info > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #bce8f1;
+}
+#tideFishSchedule .panel-warning {
+  border-color: #faebcc;
+}
+#tideFishSchedule .panel-warning > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+#tideFishSchedule .panel-warning > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #faebcc;
+}
+#tideFishSchedule .panel-warning > .panel-heading .badge {
+  color: #fcf8e3;
+  background-color: #8a6d3b;
+}
+#tideFishSchedule .panel-warning > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #faebcc;
+}
+#tideFishSchedule .panel-danger {
+  border-color: #ebccd1;
+}
+#tideFishSchedule .panel-danger > .panel-heading {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+#tideFishSchedule .panel-danger > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ebccd1;
+}
+#tideFishSchedule .panel-danger > .panel-heading .badge {
+  color: #f2dede;
+  background-color: #a94442;
+}
+#tideFishSchedule .panel-danger > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ebccd1;
+}
+#tideFishSchedule .embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#tideFishSchedule .embed-responsive .embed-responsive-item,
+#tideFishSchedule .embed-responsive iframe,
+#tideFishSchedule .embed-responsive embed,
+#tideFishSchedule .embed-responsive object {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+#tideFishSchedule .embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+#tideFishSchedule .embed-responsive.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+#tideFishSchedule .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#tideFishSchedule .well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+#tideFishSchedule .well-lg {
+  padding: 24px;
+  border-radius: 6px;
+}
+#tideFishSchedule .well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+#tideFishSchedule .close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+#tideFishSchedule .close:hover,
+#tideFishSchedule .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#tideFishSchedule button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+#tideFishSchedule .modal-open {
+  overflow: hidden;
+}
+#tideFishSchedule .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+#tideFishSchedule .modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  -webkit-transform: translate3d(0, -25%, 0);
+  -o-transform: translate3d(0, -25%, 0);
+  transform: translate3d(0, -25%, 0);
+}
+#tideFishSchedule .modal.in .modal-dialog {
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+#tideFishSchedule .modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#tideFishSchedule .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+#tideFishSchedule .modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+#tideFishSchedule .modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+#tideFishSchedule .modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+#tideFishSchedule .modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#tideFishSchedule .modal-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#tideFishSchedule .modal-header .close {
+  margin-top: -2px;
+}
+#tideFishSchedule .modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+#tideFishSchedule .modal-body {
+  position: relative;
+  padding: 15px;
+}
+#tideFishSchedule .modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+#tideFishSchedule .modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+#tideFishSchedule .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#tideFishSchedule .modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+#tideFishSchedule .modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+@media (min-width: 768px) {
+  #tideFishSchedule .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  #tideFishSchedule .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  #tideFishSchedule .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  #tideFishSchedule .modal-lg {
+    width: 900px;
+  }
+}
+#tideFishSchedule .tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  visibility: visible;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+#tideFishSchedule .tooltip.in {
+  filter: alpha(opacity=90);
+  opacity: .9;
+}
+#tideFishSchedule .tooltip.top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+#tideFishSchedule .tooltip.right {
+  padding: 0 5px;
+  margin-left: 3px;
+}
+#tideFishSchedule .tooltip.bottom {
+  padding: 5px 0;
+  margin-top: 3px;
+}
+#tideFishSchedule .tooltip.left {
+  padding: 0 5px;
+  margin-left: -3px;
+}
+#tideFishSchedule .tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+}
+#tideFishSchedule .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#tideFishSchedule .tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+#tideFishSchedule .tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+#tideFishSchedule .tooltip.top-right .tooltip-arrow {
+  right: 5px;
+  bottom: 0;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+}
+#tideFishSchedule .tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000;
+}
+#tideFishSchedule .tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000;
+}
+#tideFishSchedule .tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+#tideFishSchedule .tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+#tideFishSchedule .tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+}
+#tideFishSchedule .popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+#tideFishSchedule .popover.top {
+  margin-top: -10px;
+}
+#tideFishSchedule .popover.right {
+  margin-left: 10px;
+}
+#tideFishSchedule .popover.bottom {
+  margin-top: 10px;
+}
+#tideFishSchedule .popover.left {
+  margin-left: -10px;
+}
+#tideFishSchedule .popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+#tideFishSchedule .popover-content {
+  padding: 9px 14px;
+}
+#tideFishSchedule .popover > .arrow,
+#tideFishSchedule .popover > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#tideFishSchedule .popover > .arrow {
+  border-width: 11px;
+}
+#tideFishSchedule .popover > .arrow:after {
+  content: "";
+  border-width: 10px;
+}
+#tideFishSchedule .popover.top > .arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  border-bottom-width: 0;
+}
+#tideFishSchedule .popover.top > .arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-color: #fff;
+  border-bottom-width: 0;
+}
+#tideFishSchedule .popover.right > .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-left-width: 0;
+}
+#tideFishSchedule .popover.right > .arrow:after {
+  bottom: -10px;
+  left: 1px;
+  content: " ";
+  border-right-color: #fff;
+  border-left-width: 0;
+}
+#tideFishSchedule .popover.bottom > .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+#tideFishSchedule .popover.bottom > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+#tideFishSchedule .popover.left > .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+#tideFishSchedule .popover.left > .arrow:after {
+  right: 1px;
+  bottom: -10px;
+  content: " ";
+  border-right-width: 0;
+  border-left-color: #fff;
+}
+#tideFishSchedule .carousel {
+  position: relative;
+}
+#tideFishSchedule .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#tideFishSchedule .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+#tideFishSchedule .carousel-inner > .item > img,
+#tideFishSchedule .carousel-inner > .item > a > img {
+  line-height: 1;
+}
+#tideFishSchedule .carousel-inner > .active,
+#tideFishSchedule .carousel-inner > .next,
+#tideFishSchedule .carousel-inner > .prev {
+  display: block;
+}
+#tideFishSchedule .carousel-inner > .active {
+  left: 0;
+}
+#tideFishSchedule .carousel-inner > .next,
+#tideFishSchedule .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#tideFishSchedule .carousel-inner > .next {
+  left: 100%;
+}
+#tideFishSchedule .carousel-inner > .prev {
+  left: -100%;
+}
+#tideFishSchedule .carousel-inner > .next.left,
+#tideFishSchedule .carousel-inner > .prev.right {
+  left: 0;
+}
+#tideFishSchedule .carousel-inner > .active.left {
+  left: -100%;
+}
+#tideFishSchedule .carousel-inner > .active.right {
+  left: 100%;
+}
+#tideFishSchedule .carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#tideFishSchedule .carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+#tideFishSchedule .carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+#tideFishSchedule .carousel-control:hover,
+#tideFishSchedule .carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  filter: alpha(opacity=90);
+  outline: 0;
+  opacity: .9;
+}
+#tideFishSchedule .carousel-control .icon-prev,
+#tideFishSchedule .carousel-control .icon-next,
+#tideFishSchedule .carousel-control .glyphicon-chevron-left,
+#tideFishSchedule .carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+#tideFishSchedule .carousel-control .icon-prev,
+#tideFishSchedule .carousel-control .glyphicon-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+}
+#tideFishSchedule .carousel-control .icon-next,
+#tideFishSchedule .carousel-control .glyphicon-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+#tideFishSchedule .carousel-control .icon-prev,
+#tideFishSchedule .carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  font-family: serif;
+}
+#tideFishSchedule .carousel-control .icon-prev:before {
+  content: '\2039';
+}
+#tideFishSchedule .carousel-control .icon-next:before {
+  content: '\203a';
+}
+#tideFishSchedule .carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+#tideFishSchedule .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+#tideFishSchedule .carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #fff;
+}
+#tideFishSchedule .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#tideFishSchedule .carousel-caption .btn {
+  text-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  #tideFishSchedule .carousel-control .glyphicon-chevron-left,
+  #tideFishSchedule .carousel-control .glyphicon-chevron-right,
+  #tideFishSchedule .carousel-control .icon-prev,
+  #tideFishSchedule .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 30px;
+  }
+  #tideFishSchedule .carousel-control .glyphicon-chevron-left,
+  #tideFishSchedule .carousel-control .icon-prev {
+    margin-left: -15px;
+  }
+  #tideFishSchedule .carousel-control .glyphicon-chevron-right,
+  #tideFishSchedule .carousel-control .icon-next {
+    margin-right: -15px;
+  }
+  #tideFishSchedule .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+  }
+  #tideFishSchedule .carousel-indicators {
+    bottom: 20px;
+  }
+}
+#tideFishSchedule .clearfix:before,
+#tideFishSchedule .clearfix:after,
+#tideFishSchedule .dl-horizontal dd:before,
+#tideFishSchedule .dl-horizontal dd:after,
+#tideFishSchedule .container:before,
+#tideFishSchedule .container:after,
+#tideFishSchedule .container-fluid:before,
+#tideFishSchedule .container-fluid:after,
+#tideFishSchedule .row:before,
+#tideFishSchedule .row:after,
+#tideFishSchedule .form-horizontal .form-group:before,
+#tideFishSchedule .form-horizontal .form-group:after,
+#tideFishSchedule .btn-toolbar:before,
+#tideFishSchedule .btn-toolbar:after,
+#tideFishSchedule .btn-group-vertical > .btn-group:before,
+#tideFishSchedule .btn-group-vertical > .btn-group:after,
+#tideFishSchedule .nav:before,
+#tideFishSchedule .nav:after,
+#tideFishSchedule .navbar:before,
+#tideFishSchedule .navbar:after,
+#tideFishSchedule .navbar-header:before,
+#tideFishSchedule .navbar-header:after,
+#tideFishSchedule .navbar-collapse:before,
+#tideFishSchedule .navbar-collapse:after,
+#tideFishSchedule .pager:before,
+#tideFishSchedule .pager:after,
+#tideFishSchedule .panel-body:before,
+#tideFishSchedule .panel-body:after,
+#tideFishSchedule .modal-footer:before,
+#tideFishSchedule .modal-footer:after {
+  display: table;
+  content: " ";
+}
+#tideFishSchedule .clearfix:after,
+#tideFishSchedule .dl-horizontal dd:after,
+#tideFishSchedule .container:after,
+#tideFishSchedule .container-fluid:after,
+#tideFishSchedule .row:after,
+#tideFishSchedule .form-horizontal .form-group:after,
+#tideFishSchedule .btn-toolbar:after,
+#tideFishSchedule .btn-group-vertical > .btn-group:after,
+#tideFishSchedule .nav:after,
+#tideFishSchedule .navbar:after,
+#tideFishSchedule .navbar-header:after,
+#tideFishSchedule .navbar-collapse:after,
+#tideFishSchedule .pager:after,
+#tideFishSchedule .panel-body:after,
+#tideFishSchedule .modal-footer:after {
+  clear: both;
+}
+#tideFishSchedule .center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tideFishSchedule .pull-right {
+  float: right !important;
+}
+#tideFishSchedule .pull-left {
+  float: left !important;
+}
+#tideFishSchedule .hide {
+  display: none !important;
+}
+#tideFishSchedule .show {
+  display: block !important;
+}
+#tideFishSchedule .invisible {
+  visibility: hidden;
+}
+#tideFishSchedule .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#tideFishSchedule .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+#tideFishSchedule .affix {
+  position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@-ms-viewport {
+  width: device-width;
+}
+#tideFishSchedule .visible-xs,
+#tideFishSchedule .visible-sm,
+#tideFishSchedule .visible-md,
+#tideFishSchedule .visible-lg {
+  display: none !important;
+}
+#tideFishSchedule .visible-xs-block,
+#tideFishSchedule .visible-xs-inline,
+#tideFishSchedule .visible-xs-inline-block,
+#tideFishSchedule .visible-sm-block,
+#tideFishSchedule .visible-sm-inline,
+#tideFishSchedule .visible-sm-inline-block,
+#tideFishSchedule .visible-md-block,
+#tideFishSchedule .visible-md-inline,
+#tideFishSchedule .visible-md-inline-block,
+#tideFishSchedule .visible-lg-block,
+#tideFishSchedule .visible-lg-inline,
+#tideFishSchedule .visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .visible-xs {
+    display: block !important;
+  }
+  #tideFishSchedule table.visible-xs {
+    display: table;
+  }
+  #tideFishSchedule tr.visible-xs {
+    display: table-row !important;
+  }
+  #tideFishSchedule th.visible-xs,
+  #tideFishSchedule td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .visible-xs-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #tideFishSchedule .visible-sm {
+    display: block !important;
+  }
+  #tideFishSchedule table.visible-sm {
+    display: table;
+  }
+  #tideFishSchedule tr.visible-sm {
+    display: table-row !important;
+  }
+  #tideFishSchedule th.visible-sm,
+  #tideFishSchedule td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #tideFishSchedule .visible-sm-block {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #tideFishSchedule .visible-sm-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #tideFishSchedule .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tideFishSchedule .visible-md {
+    display: block !important;
+  }
+  #tideFishSchedule table.visible-md {
+    display: table;
+  }
+  #tideFishSchedule tr.visible-md {
+    display: table-row !important;
+  }
+  #tideFishSchedule th.visible-md,
+  #tideFishSchedule td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tideFishSchedule .visible-md-block {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tideFishSchedule .visible-md-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tideFishSchedule .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .visible-lg {
+    display: block !important;
+  }
+  #tideFishSchedule table.visible-lg {
+    display: table;
+  }
+  #tideFishSchedule tr.visible-lg {
+    display: table-row !important;
+  }
+  #tideFishSchedule th.visible-lg,
+  #tideFishSchedule td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .visible-lg-block {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .visible-lg-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  #tideFishSchedule .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #tideFishSchedule .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tideFishSchedule .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #tideFishSchedule .hidden-lg {
+    display: none !important;
+  }
+}
+#tideFishSchedule .visible-print {
+  display: none !important;
+}
+@media print {
+  #tideFishSchedule .visible-print {
+    display: block !important;
+  }
+  #tideFishSchedule table.visible-print {
+    display: table;
+  }
+  #tideFishSchedule tr.visible-print {
+    display: table-row !important;
+  }
+  #tideFishSchedule th.visible-print,
+  #tideFishSchedule td.visible-print {
+    display: table-cell !important;
+  }
+}
+#tideFishSchedule .visible-print-block {
+  display: none !important;
+}
+@media print {
+  #tideFishSchedule .visible-print-block {
+    display: block !important;
+  }
+}
+#tideFishSchedule .visible-print-inline {
+  display: none !important;
+}
+@media print {
+  #tideFishSchedule .visible-print-inline {
+    display: inline !important;
+  }
+}
+#tideFishSchedule .visible-print-inline-block {
+  display: none !important;
+}
+@media print {
+  #tideFishSchedule .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+@media print {
+  #tideFishSchedule .hidden-print {
+    display: none !important;
+  }
+}

@@ -27,7 +27,6 @@ function depHandler(){
     loadJQuery();
     loading.underscore = true;
     loadUnderscore();
-    loadCss();
   }else if( loaded.underscore && loaded.jQuery && !loading.moment){
     loading.moment = true;
     loadMoment();
@@ -37,6 +36,7 @@ function depHandler(){
     loadCalTemp1();
     loading.template2 = true;
     loadCalTemp2();
+    loadCss();
   }else if( loaded.moment && loaded.ddp && !loading.cal ){
     loading.cal = true;
     loadCal();
@@ -120,7 +120,7 @@ function loadCal(){
 };
 
 function loadCss(){
-  //$(head).append( "https://s3.amazonaws.com/tidefish-widget/style.css" );
+  $('head').append( '<link rel="stylesheet" href="https://s3.amazonaws.com/tidefish-widget/style.min.css">' );
 };
 
 var scheduleTempText;
