@@ -27,6 +27,7 @@ function depHandler(){
     loadJQuery();
     loading.underscore = true;
     loadUnderscore();
+    loadCss();
   }else if( loaded.underscore && loaded.jQuery && !loading.moment){
     loading.moment = true;
     loadMoment();
@@ -116,6 +117,10 @@ function loadDdp(){
 function loadCal(){
   loadLib( "https://s3.amazonaws.com/tidefish-widget/cal.min.js", calLoadHandler );
   loaded.cal = true;
+};
+
+function loadCss(){
+  //$(head).append( "https://s3.amazonaws.com/tidefish-widget/style.css" );
 };
 
 var scheduleTempText;
