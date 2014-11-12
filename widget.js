@@ -1,84 +1,142 @@
 (function() {
-// Load underscore
-var _ ;
-if(typeof _ === 'undefined'){
-    var script_tag = document.createElement('script');
-    script_tag.setAttribute("type","text/javascript");
-    script_tag.setAttribute("src",
-        "https://s3.amazonaws.com/tidefish-widget/underscore.min.js");
-    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
+var _;
+
+var loaded = {
+  underscore: false,
+  jQuery: false,
+  moment: false,
+  ddp: false,
+  cal: false,
+  template1: false,
+  template2: false
 };
 
-// Localize jQuery variable
-var jQuery;
+var loading = {
+  underscore: false,
+  jQuery: false,
+  moment: false,
+  ddp: false,
+  cal: false,
+  template1: false,
+  template2: false
+};
 
-/******** Load jQuery if not present *********/
-if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.11.1') {
-    var script_tag = document.createElement('script');
-    script_tag.setAttribute("type","text/javascript");
-    script_tag.setAttribute("src",
-        "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js");
-    if (script_tag.readyState) {
-      script_tag.onreadystatechange = function () { // For old versions of IE
-          if (this.readyState == 'complete' || this.readyState == 'loaded') {
-              scriptLoadHandler();
-          }
-      };
-    } else { // Other browsers
-      script_tag.onload = scriptLoadHandler;
-    }
-    // Try to find the head, otherwise default to the documentElement
-    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-} else {
-    // The jQuery version on the window is the one we want to use
-    jQuery = window.jQuery;
-    main();
-}
+function depHandler(){
+  if( !loading.underscore && !loading.jQuery ){
+    loading.jQuery = true;
+    loadJQuery();
+    loading.underscore = true;
+    loadUnderscore();
+  }else if( loaded.underscore && loaded.jQuery && !loading.moment){
+    loading.moment = true;
+    loadMoment();
+    loading.ddp = true;
+    loadDdp();
+    loading.template1 = true;
+    loadCalTemp1();
+    loading.template2 = true;
+    loadCalTemp2();
+  }else if( loaded.moment && loaded.ddp && !loading.cal ){
+    loading.cal = true;
+    loadCal();
+  }else if( loaded.cal && loaded.ddp && loaded.template1 && loaded.template2){
+    main(jQuery );
+  };
+};
 
-/******** Called once jQuery has loaded ******/
-function scriptLoadHandler() {
-    jQuery = window.jQuery.noConflict(true);
-    main(); 
-}
+function jQueryLoadHandler( ) {
+  loaded.jQuery = true;
+  depHandler();
+};
+function underscoreLoadHandler( ) {
+  loaded.underscore = true;
+  _ = window._;
+  depHandler();
+};
+function momentLoadHandler( ) {
+  loaded.moment = true;
+  depHandler();
+};
+function calLoadHandler( ) {
+  loaded.cal = true;
+  depHandler();
+};
+function ddpLoadHandler( ) {
+  loaded.ddp = true;
+  depHandler();
+};
 
 
-
-function init(){
-  /* Load Moment */
+function loadLib( url, callback ){
   var script_tag = document.createElement('script');
   script_tag.setAttribute("type","text/javascript");
-  script_tag.setAttribute("src",
-      "https://s3.amazonaws.com/tidefish-widget/moment.min.js");
+  script_tag.setAttribute("src", url );
+  if (script_tag.readyState) {
+    script_tag.onreadystatechange = function () { // For old versions of IE
+        if (this.readyState == 'complete' || this.readyState == 'loaded') {
+          callback();
+        }
+    };
+  } else { // Other browsers
+    script_tag.onload = callback;
+  }
+  // Try to find the head, otherwise default to the documentElement
   (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
+};
 
-  /* Load DDP */
-  var script_tag = document.createElement('script');
-  script_tag.setAttribute("type","text/javascript");
-  script_tag.setAttribute("src",
-      "https://s3.amazonaws.com/tidefish-widget/meteor-ddp.min.js");
-  (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
+function loadUnderscore(){
+  if (window._ === undefined ) {
+    loadLib( "https://s3.amazonaws.com/tidefish-widget/underscore.min.js", underscoreLoadHandler );
+  } else {
+    underscoreLoadHandler();
+  }
+};
 
-  /* Load Calendar */
-  var script_tag = document.createElement('script');
-  script_tag.setAttribute("type","text/javascript");
-  script_tag.setAttribute("src",
-      "https://s3.amazonaws.com/tidefish-widget/cal.min.js");
-  (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-  
-  /* Load Calendar Templates */
-  var script_tag = document.createElement('script');
-  script_tag.setAttribute("type","text/template");
-  script_tag.setAttribute("id","tideFishCalTemplate");
-  script_tag.setAttribute("src",
-      "https://s3.amazonaws.com/tidefish-widget/widget-cal-template.html");
-  (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-  var script_tag = document.createElement('script');
-  script_tag.setAttribute("type","text/template");
-  script_tag.setAttribute("id","tideFishEventsDisplay");
-  script_tag.setAttribute("src",
-      "https://s3.amazonaws.com/tidefish-widget/widget-schedule-template.html");
-  (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-}
+function loadJQuery(){
+  if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.11.1') {
+    loadLib( "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js", jQueryLoadHandler );
+  } else {
+    jqueryLoadHandler();
+  }
+};
+
+function loadMoment(){
+  if (window.moment === undefined ) {
+    loadLib( "https://s3.amazonaws.com/tidefish-widget/moment.min.js", momentLoadHandler );
+  } else {
+    momentLoadHandler();
+  }
+};
+
+function loadDdp(){
+  loadLib(  "https://s3.amazonaws.com/tidefish-widget/meteor-ddp.min.js", ddpLoadHandler );
+  loaded.ddp = true;
+};
+
+function loadCal(){
+  loadLib( "https://s3.amazonaws.com/tidefish-widget/cal.min.js", calLoadHandler );
+  loaded.cal = true;
+};
+
+var scheduleTempText;
+function loadCalTemp1(){
+  $.get("https://s3.amazonaws.com/tidefish-widget/widget-schedule-template.html", function(text){
+    scheduleTempText = text;
+    loaded.template1 = true;
+    depHandler();
+  });
+};
+
+var calTempText;
+function loadCalTemp2(){
+  $.get( "https://s3.amazonaws.com/tidefish-widget/widget-cal-template.html", function(text){
+    calTempText = text;
+    loaded.template2 = true;
+    depHandler();
+  });
+};
+
+depHandler();
 
 /******** Library startup helpers ******/
 
@@ -86,9 +144,19 @@ function init(){
  * Create calendar object and helpers
  */
 function SetupCalendar( events ){
-  var calTemplate = jQuery('script#tideFishCalTemplate').html();
   var cal = jQuery('#tideFishCalendar').clndr({
-    template: calTemplate,
+    template: calTempText,
+    onRender: function(){
+      var self = this;
+      $('#jumpToDateSubmit').click(function(e){
+        var date = moment($('#jumpToDateInput').val());
+        if( date.isValid() ){
+          self.setSelected( date, false );
+          self.applyChange( date );
+        }
+        $('#jumpToDateInput').val('');
+      });
+    },
     lengthOfTime: {
       intervalUnit: 'days',
       interval: 14,
@@ -100,15 +168,20 @@ function SetupCalendar( events ){
       };
     }  
   });
+
   return cal;
 };
 
 /*
  * Setup prototcol to fetch data from Tide.Fish Servers
  */
-function DDP( id, events, callback){
+function DDP( id, events, callback, ws ){
   this.id = id;
-  this.ddp = new MeteorDdp('ws://localhost:3000/websocket');
+  if( ws ){
+    this.ddp = new MeteorDdp(ws);
+  }else{
+    this.ddp = new MeteorDdp('wss://tide.fish/websocket');
+  }
   this.callback = callback;
   this.events = events;
   this.subscribedTo = {};
@@ -169,10 +242,7 @@ DDP.prototype.watch = function() {
 function EventsDisplay(events){
   this.date = moment();
   this.events = events;
-
-  this.template = _.template(
-      jQuery('script#tideFishEventsDisplay').html()
-  );
+  this.template = _.template( scheduleTempText );
 
   this.render();
 
@@ -184,7 +254,7 @@ EventsDisplay.prototype.render = function(){
     events: this.events[ dateKey(this.date) ],
     date: this.date
   };
-  jQuery('#tideFishEvents').html( this.template( data ) );
+  $('#tideFishEvents').html( this.template( data ) );
 };
 
 EventsDisplay.prototype.setDate = function( date ){
@@ -211,37 +281,42 @@ function isAvaliable( day, events ){
 
 
 /******** Our main function ********/
-function main() { 
-    init();
-    jQuery(document).ready(function($) {
+function main($) {
+  
+    $(document).ready(function($) {
         var id = jQuery('#tideFishSchedule').attr('data-accountId');
-        jQuery('#tideFishSchedule').append('<div id="tideFishCalendar"></div><div id="tideFishEvents"></div>');
+        if( !id ){ 
+          console.error( "data-accountId not defined on #tideFishSchedule" ) 
+        }else{
+          jQuery('#tideFishSchedule').append('<div id="tideFishCalendar"></div><div id="tideFishEvents"></div>');
 
-        var events = {};
+          var events = {};
 
-        var eventsDisplay = new EventsDisplay(events);
-        
-        // Setup Calendar and attach data callbacks
-        var cal = SetupCalendar(events);
-        cal.options.clickEvents.onSelect = function(day){
-          eventsDisplay.setDate( day );
-        }
-
-        var ddp = new DDP( id , events, function(){
-          cal.render();
-          eventsDisplay.render();
-        });
-
-        // When the interval changes on the calendar we may need more data
-        cal.options.clickEvents.onIntervalChange = function(start, end){
-          for( var date = start.clone(); !date.isAfter(end,'isoWeek'); date.add(1,'week') ){
-            ddp.subscribe( date.clone() );
+          var eventsDisplay = new EventsDisplay(events);
+          
+          // Setup Calendar and attach data callbacks
+          var cal = SetupCalendar(events);
+          cal.options.onSelect = function(day){
+            eventsDisplay.setDate( day );
           }
-        }
 
-        // since intervalChange hook was set after cal init, we need to trigger first time
-        cal.options.clickEvents.onIntervalChange( cal.intervalStart, cal.intervalEnd );
-        
+          var ws = jQuery('#tideFishSchedule').attr('data-ws');
+          var ddp = new DDP( id , events, function(){
+            cal.render();
+            eventsDisplay.render();
+          }, ws);
+
+          // When the interval changes on the calendar we may need more data
+          cal.options.clickEvents.onIntervalChange = function(start, end){
+            var endBound = end.clone().add(5,'days');
+            for( var date = start.clone(); !date.isAfter(endBound,'isoWeek'); date.add(1,'week') ){
+              ddp.subscribe( date.clone() );
+            }
+          }
+
+          // since intervalChange hook was set after cal init, we need to trigger first time
+          cal.options.clickEvents.onIntervalChange( cal.intervalStart, cal.intervalEnd );
+        }
     });
 }
 
